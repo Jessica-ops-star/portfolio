@@ -31,24 +31,30 @@ export const portfolioData = {
       title: "Blood Connect",
       tag: "App Design",
       description:
-        "A real-time platform that helps recipients quickly find nearby blood donors using location and instant alerts.",
+        "A real-time platform that helps recipients quickly find nearby blood donors.",
+      longDescription: "A real-time platform that helps recipients quickly find nearby blood donors using location and instant alerts. This project focuses on a clean user interface and rapid communication channels to bridge the gap between donors and those in need during emergencies.",
       image_id: "project-blood-connect",
+      techStack: ["Figma", "UI/UX Design", "Prototyping"],
       link: "#",
     },
     {
       title: "OD Tracker System",
       tag: "Web Platform",
       description:
-        "Automates the on-duty approval workflow with role-based dashboards and real-time tracking.",
+        "Automates the on-duty approval workflow with role-based dashboards and tracking.",
+      longDescription: "This web platform automates the on-duty approval workflow for students and faculty. It features role-based dashboards for students, staff, and administrators, along with real-time tracking of requests. The goal was to reduce manual paperwork and streamline the approval process.",
       image_id: "project-od-tracker",
+      techStack: ["React", "Node.js", "MySQL", "Express"],
       link: "#",
     },
     {
       title: "CartVision AI",
       tag: "AI Project",
       description:
-        "An AI-powered retail assistant that detects products without barcodes and updates cart items using computer vision.",
+        "An AI-powered retail assistant that detects products without barcodes using computer vision.",
+      longDescription: "CartVision AI is a proof-of-concept for an AI-powered retail assistant. Using a camera and computer vision models, it identifies products that don't have a scannable barcode (like fresh produce) and automatically adds them to a digital shopping cart, aiming to streamline the checkout process.",
       image_id: "project-cart-vision",
+      techStack: ["Python", "OpenCV", "TensorFlow", "Flask"],
       link: "#",
     },
     {
@@ -56,7 +62,9 @@ export const portfolioData = {
       tag: "IoT + App",
       description:
         "A smart safety jacket with SOS alerts and real-time location updates for emergencies.",
+      longDescription: "Safe Streets is an IoT project consisting of a smart safety jacket connected to a mobile app. The jacket has sensors to detect falls or manual triggers, which then send SOS alerts with real-time GPS location to pre-configured emergency contacts via the app.",
       image_id: "project-safe-streets",
+      techStack: ["Arduino", "React Native", "Firebase", "GPS Module"],
       link: "#",
     },
   ],
@@ -68,7 +76,7 @@ export const portfolioData = {
   },
   skills: {
     technical: ["Java", "Python", "C", "MySQL"],
-    soft: ["Communication", "Teamwork", "Problem Solving"]
+    soft: ["Communication", "Teamwork", "Problem Solving", "Adaptability", "Leadership"]
   },
   achievements: [
     "EMF'25 — 3rd place",
@@ -86,9 +94,6 @@ export const portfolioData = {
   internship: {
       title: "1M1M AI for Sustainability",
       duration: "6 weeks",
-  },
-  contact: {
-    title: "Let’s Create Something Amazing Together ✨",
   },
   socials: {
     linkedin: "https://linkedin.com/in/jessica-b-8a18a2334",

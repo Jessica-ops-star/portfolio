@@ -1,12 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { portfolioData } from "@/lib/data";
 import { getPlaceholderImage } from "@/lib/placeholder-images";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Section } from "@/components/ui/section";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
   Carousel,
@@ -15,6 +13,16 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { Button } from "../ui/button";
+import { ExternalLink } from "lucide-react";
 
 export default function Projects() {
   return (
@@ -41,27 +49,63 @@ export default function Projects() {
             return (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
-                  <Card className="group h-full overflow-hidden bg-card/50 backdrop-blur-sm border-border transition-all duration-300 hover:border-primary/50 hover:shadow-2xl card-glow hover:card-glow">
-                    <CardHeader className="p-0">
-                      <div className="relative h-48 w-full overflow-hidden">
+                  <Dialog>
+                    <DialogTrigger asChild>
+                      <Card className="group h-full cursor-pointer overflow-hidden bg-card/50 backdrop-blur-sm border-border transition-all duration-300 hover:border-primary/50 hover:shadow-2xl card-glow hover:card-glow">
+                        <CardHeader className="p-0">
+                          <div className="relative h-48 w-full overflow-hidden">
+                            {projectImage && (
+                              <Image
+                                src={projectImage.imageUrl}
+                                alt={project.title}
+                                data-ai-hint={projectImage.imageHint}
+                                fill
+                                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                              />
+                            )}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                          </div>
+                        </CardHeader>
+                        <CardContent className="p-4">
+                          <Badge variant="secondary" className="mb-2">{project.tag}</Badge>
+                          <CardTitle className="font-headline text-lg">{project.title}</CardTitle>
+                          <p className="mt-2 text-sm text-muted-foreground">{project.description}</p>
+                        </CardContent>
+                      </Card>
+                    </DialogTrigger>
+                    <DialogContent className="max-w-2xl">
+                      <DialogHeader>
                         {projectImage && (
-                          <Image
-                            src={projectImage.imageUrl}
-                            alt={project.title}
-                            data-ai-hint={projectImage.imageHint}
-                            fill
-                            className="object-cover transition-transform duration-300 group-hover:scale-105"
-                          />
+                           <div className="relative h-64 w-full overflow-hidden rounded-lg mb-4">
+                            <Image
+                              src={projectImage.imageUrl}
+                              alt={project.title}
+                              data-ai-hint={projectImage.imageHint}
+                              fill
+                              className="object-cover"
+                            />
+                          </div>
                         )}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                      </div>
-                    </CardHeader>
-                    <CardContent className="p-4">
-                      <Badge variant="secondary" className="mb-2">{project.tag}</Badge>
-                      <CardTitle className="font-headline text-lg">{project.title}</CardTitle>
-                      <p className="mt-2 text-sm text-muted-foreground">{project.description}</p>
-                    </CardContent>
-                  </Card>
+                        <DialogTitle className="font-headline text-2xl">{project.title}</DialogTitle>
+                        <DialogDescription asChild>
+                          <div className="space-y-4">
+                             <p className="text-base text-muted-foreground">{project.longDescription}</p>
+                             <div className="flex flex-wrap gap-2">
+                              {project.techStack?.map(tech => <Badge key={tech} variant="outline">{tech}</Badge>)}
+                             </div>
+                             {project.link && (
+                              <Button asChild variant="outline">
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                  <ExternalLink className="mr-2 h-4 w-4"/>
+                                  View Project
+                                </a>
+                              </Button>
+                             )}
+                          </div>
+                        </DialogDescription>
+                      </DialogHeader>
+                    </DialogContent>
+                  </Dialog>
                 </div>
               </CarouselItem>
             );
@@ -72,7 +116,7 @@ export default function Projects() {
       </Carousel>
       <div className="mt-8 text-center">
         <Button asChild variant="outline">
-            <Link href="#">See All</Link>
+            <a href="#">See All</a>
         </Button>
       </div>
     </Section>
