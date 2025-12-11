@@ -7,7 +7,7 @@ export const portfolioData = {
       "A passionate CSE student who loves building meaningful tech solutions and exploring real-world problem solving through projects and hackathons.",
   },
   about:
-    "I'm Jessica, a motivated and hardworking Computer Science Engineering student from Chennai. I enjoy learning new technologies, solving problems, and building practical, real-world projects. With strong communication, teamwork, and adaptability, I love taking on challenges and growing through hands-on experience.",
+    "I'm Jessica, a motivated and hardworking Computer Science Engineering student with a passion for building real-world digital solutions. I love exploring new technologies, understanding how things work, and transforming ideas into practical, usable projects.\n\nI enjoy solving problems, experimenting with new tools, and continuously improving my technical and creative skills. Whether it’s working on app prototypes, AI experiments, or web platforms, I focus on creating meaningful solutions.\n\nWith strong communication, teamwork, leadership, and adaptability, I thrive in collaborative environments and enjoy taking on challenges that help me grow both personally and professionally.",
   whatIDo: [
     {
       title: "Web Development",
