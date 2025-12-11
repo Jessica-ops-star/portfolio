@@ -4,72 +4,72 @@
 
 @layer base {
   :root {
-    --background: 283 39% 15%; /* #301934 */
+    --background: 274 58% 8%; /* #11071F */
     --foreground: 270 20% 96%;
 
-    --card: 283 39% 20%;
+    --card: 274 40% 12%;
     --card-foreground: 270 20% 96%;
  
-    --popover: 283 39% 15%;
+    --popover: 274 58% 8%;
     --popover-foreground: 270 20% 96%;
  
-    --primary: 262 80% 68%; /* Brighter Purple/Violet for primary actions */
+    --primary: 265 90% 65%; /* Brighter, more saturated purple */
     --primary-foreground: 270 20% 98%;
  
     --secondary: 270 22% 85%;
-    --secondary-foreground: 262 58% 30%;
+    --secondary-foreground: 265 58% 30%;
  
-    --muted: 283 39% 25%;
+    --muted: 274 30% 20%;
     --muted-foreground: 270 15% 70%;
  
-    --accent: 310 80% 80%; /* Neon Pink/Magenta for accents */
-    --accent-foreground: 262 58% 40%;
+    --accent: 320 100% 70%; /* Vibrant magenta/pink */
+    --accent-foreground: 265 58% 40%;
  
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 262 60% 50%;
-    --input: 262 50% 40%;
-    --ring: 262 70% 70%;
+    --border: 265 70% 50%;
+    --input: 265 60% 40%;
+    --ring: 265 80% 70%;
  
     --radius: 0.8rem;
 
-    --chart-1: 262 80% 68%;
+    --chart-1: 265 90% 65%;
     --chart-2: 190 80% 60%;
-    --chart-3: 310 80% 70%;
+    --chart-3: 320 90% 70%;
     --chart-4: 300 90% 70%;
     --chart-5: 200 90% 70%;
     
   }
  
   .dark {
-    --background: 283 50% 12%; /* #281031 */
+    --background: 274 58% 8%; /* #11071F */
     --foreground: 270 25% 96%;
 
-    --card: 283 35% 18%; /* #351c42 */
+    --card: 274 40% 12%; /* #1B0D25 */
     --card-foreground: 270 25% 96%;
  
-    --popover: 283 50% 12%;
+    --popover: 274 58% 8%;
     --popover-foreground: 270 25% 96%;
  
-    --primary: 262 88% 70%; /* #8A5EFF - Violet Glow */
+    --primary: 265 90% 68%; /* #7F4CFF - Vibrant Purple */
     --primary-foreground: 270 20% 98%;
  
     --secondary: 270 20% 85%;
-    --secondary-foreground: 262 58% 30%;
+    --secondary-foreground: 265 58% 30%;
  
-    --muted: 283 25% 25%;
+    --muted: 274 25% 22%;
     --muted-foreground: 270 15% 65%;
  
-    --accent: 328 100% 74%; /* #FF78E0 - Pink Neon Glow */
-    --accent-foreground: 328 100% 95%;
+    --accent: 320 100% 72%; /* #FF71E3 - Hot Pink/Magenta */
+    --accent-foreground: 320 100% 95%;
  
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 262 60% 45%; /* #682ae9 */
-    --input: 262 50% 35%;
-    --ring: 262 88% 75%;
+    --border: 265 70% 45%; /* #6723E6 */
+    --input: 265 60% 35%;
+    --ring: 265 90% 75%;
   }
 }
  
@@ -79,8 +79,8 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-color: hsl(283 50% 12%);
-    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, hsl(283 40% 20% / 0.5), transparent);
+    background-color: hsl(var(--background));
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, hsl(274 40% 15% / 0.5), transparent);
   }
 
   .text-glow {

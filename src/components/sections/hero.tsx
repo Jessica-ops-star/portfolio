@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { portfolioData } from "@/lib/data";
@@ -57,7 +59,7 @@ export default function Hero() {
         </div>
         <div className="flex justify-center items-center">
           {avatarImage && (
-            <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[450px] lg:h-[450px]">
+            <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px]">
                <div className="absolute inset-[-10%] rounded-[60px] border-[6px] border-black/20 p-2 animate-float">
                 <div className="absolute inset-0 rounded-[50px] border-4 border-primary/30 animate-pulse -rotate-12 p-2">
                   <div className="w-full h-full border-2 border-accent/30 rounded-[40px]"></div>
@@ -67,8 +69,8 @@ export default function Hero() {
                 src={avatarImage.imageUrl}
                 alt={avatarImage.description}
                 data-ai-hint={avatarImage.imageHint}
-                width={450}
-                height={450}
+                width={400}
+                height={400}
                 priority
                 className={cn(
                   "relative aspect-square object-contain animate-float"
