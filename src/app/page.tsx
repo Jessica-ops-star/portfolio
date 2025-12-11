@@ -5,7 +5,7 @@ import WhatIDo from "@/components/sections/what-i-do";
 import Projects from "@/components/sections/projects";
 import Skills from "@/components/sections/skills";
 import Achievements from "@/components/sections/achievements";
-import Contact from "@/components/sections/contact";
+import Certifications from "@/components/sections/certifications";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
         <Projects />
         <Skills />
         <Achievements />
-        <Contact />
+        <Certifications />
       </main>
       <Footer />
     </>
