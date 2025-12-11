@@ -8,6 +8,7 @@ import Achievements from "@/components/sections/achievements";
 import Certifications from "@/components/sections/certifications";
 import Internship from "@/components/sections/internship";
 import Footer from "@/components/footer";
+import Contact from "@/components/sections/contact";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Achievements />
         <Certifications />
         <Internship />
+        <Contact />
       </main>
       <Footer />
     </>

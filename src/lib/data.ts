@@ -42,7 +42,7 @@ export const portfolioData = {
       tag: "Web Platform",
       description:
         "Automates the on-duty approval workflow with role-based dashboards and tracking.",
-      longDescription: "Manual On-Duty (OD) approvals in academic institutions often involve paper forms and repeated follow-ups, \ncausing delays and lack of transparency. OD Tracker System digitizes and automates this process through a \nrole-based workflow that eliminates unnecessary waiting time. \nThe system features three dashboards—Student, Staff/Mentor/Class Coordinator, and HoD—ensuring that \nonce a request is submitted by a student, it automatically routes to the respective mentor, then to the class \ncoordinator, and finally to the HoD for approval. Each stage is updated in real time, allowing applicants to track \ntheir request status instantly. \n\nKey Features: \n• Role-based dashboards for different approval authorities \n• Automated request forwarding between approval levels \n• Real-time status tracking for transparency \n• Reduced administrative workload and faster processing times",
+      longDescription: "Manual On-Duty (OD) approvals in academic institutions often involve paper forms and repeated follow-ups, \ncausing delays and lack of transparency. OD Tracker System digitizes and automates this process through a \nrole-based workflow that eliminates unnecessary waiting time. \nThe system features three dashboards—Student, Staff/Mentor/Class Coordinator, and HoD—ensuring that \nonce a request is submitted by a student, it automatically routes to the a respective mentor, then to the class \ncoordinator, and finally to the HoD for approval. Each stage is updated in real time, allowing applicants to track \ntheir request status instantly. \n\nKey Features: \n• Role-based dashboards for different approval authorities \n• Automated request forwarding between approval levels \n• Real-time status tracking for transparency \n• Reduced administrative workload and faster processing times",
       image_id: "project-od-tracker",
       techStack: ["React", "Node.js", "MySQL", "Express"],
       link: "#",
@@ -99,4 +99,7 @@ export const portfolioData = {
     linkedin: "https://linkedin.com/in/jessica-b-8a18a2334",
     email: "jessicabenno28@gmail.com",
   },
+  contact: {
+    title: "Let's create something amazing together.",
+  }
 };
