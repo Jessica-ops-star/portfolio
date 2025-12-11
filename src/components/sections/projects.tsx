@@ -41,7 +41,7 @@ export default function Projects() {
             return (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
-                  <Card className="group h-full overflow-hidden bg-card/30 backdrop-blur-sm border-primary/20 transition-all duration-300 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/20">
+                  <Card className="group h-full overflow-hidden bg-card/50 backdrop-blur-sm border-border transition-all duration-300 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/20">
                     <CardHeader className="p-0">
                       <div className="relative h-48 w-full overflow-hidden">
                         {projectImage && (
@@ -53,7 +53,7 @@ export default function Projects() {
                             className="object-cover transition-transform duration-300 group-hover:scale-105"
                           />
                         )}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                       </div>
                     </CardHeader>
                     <CardContent className="p-4">

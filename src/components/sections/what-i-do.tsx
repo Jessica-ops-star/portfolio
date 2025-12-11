@@ -45,7 +45,7 @@ export default function WhatIDo() {
               return (
                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
-                    <Card className="group h-full transform-gpu bg-background/50 p-6 transition-all duration-300 hover:-translate-y-2 hover:bg-background/80 hover:shadow-2xl hover:shadow-primary/20">
+                    <Card className="group h-full transform-gpu bg-card/50 p-6 transition-all duration-300 hover:-translate-y-2 hover:bg-background/80 hover:shadow-2xl hover:shadow-primary/20">
                       <CardHeader className="p-0">
                         <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
                           <Icon className="h-6 w-6" />

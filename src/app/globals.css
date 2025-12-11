@@ -9,33 +9,33 @@
   }
 
   :root {
-    --background: 285 33% 15%; /* #301934 */
+    --background: 285 33% 10%; /* Darker purple */
     --foreground: 240 67% 94%; /* #E6E6FA */
     
-    --card: 285 25% 20%;
+    --card: 285 25% 15%;
     --card-foreground: 240 67% 94%;
     
-    --popover: 285 40% 10%;
+    --popover: 285 40% 8%;
     --popover-foreground: 240 67% 94%;
     
-    --primary: 262 52% 58%; /* #673AB7 */
+    --primary: 262 62% 62%; /* Brighter Purple */
     --primary-foreground: 240 67% 94%;
     
-    --secondary: 285 20% 25%;
+    --secondary: 285 20% 20%;
     --secondary-foreground: 240 67% 94%;
     
-    --muted: 285 20% 25%;
+    --muted: 285 20% 20%;
     --muted-foreground: 240 10% 65%;
     
-    --accent: 240 67% 94%; /* #E6E6FA */
-    --accent-foreground: 285 33% 15%;
+    --accent: 262 52% 58%;
+    --accent-foreground: 240 67% 94%;
     
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 285 20% 30%;
-    --input: 285 20% 30%;
-    --ring: 262 60% 70%;
+    --border: 285 20% 25%;
+    --input: 285 20% 25%;
+    --ring: 262 70% 75%;
 
     --radius: 0.5rem;
     
@@ -47,22 +47,22 @@
   }
  
   .dark {
-    --background: 285 33% 15%; /* #301934 */
+    --background: 285 33% 10%; /* Darker purple */
     --foreground: 240 67% 94%; /* #E6E6FA */
     
-    --card: 285 25% 20%;
+    --card: 285 25% 15%;
     --card-foreground: 240 67% 94%;
 
-    --popover: 285 40% 10%;
+    --popover: 285 40% 8%;
     --popover-foreground: 240 67% 94%;
 
-    --primary: 262 52% 58%; /* #673AB7 */
+    --primary: 262 62% 62%; /* Brighter Purple */
     --primary-foreground: 240 67% 94%;
 
-    --secondary: 285 20% 25%;
+    --secondary: 285 20% 20%;
     --secondary-foreground: 240 67% 94%;
 
-    --muted: 285 20% 25%;
+    --muted: 285 20% 20%;
     --muted-foreground: 240 10% 65%;
 
     --accent: 262 52% 58%;
@@ -71,9 +71,9 @@
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 285 20% 30%;
-    --input: 285 20% 30%;
-    --ring: 262 60% 70%;
+    --border: 285 20% 25%;
+    --input: 285 20% 25%;
+    --ring: 262 70% 75%;
     
     --chart-1: 262 70% 50%;
     --chart-2: 270 60% 45%;
@@ -89,8 +89,8 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-image: radial-gradient(circle at 10% 20%, hsl(var(--primary)/0.1), transparent 30%),
-                      radial-gradient(circle at 90% 80%, hsl(var(--primary)/0.1), transparent 30%);
+    background-image: radial-gradient(circle at 15% 25%, hsl(var(--primary)/0.2), transparent 40%),
+                      radial-gradient(circle at 85% 75%, hsl(var(--primary)/0.15), transparent 40%);
 
   }
 }
