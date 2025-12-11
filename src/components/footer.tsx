@@ -1,5 +1,5 @@
 import { portfolioData } from "@/lib/data";
-import { Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail, Github } from "lucide-react";
 import { Button } from "./ui/button";
 
 export default function Footer() {
@@ -17,6 +17,11 @@ export default function Footer() {
               <Linkedin className="h-5 w-5" />
             </a>
           </Button>
+           <Button asChild variant="ghost" size="icon">
+              <a href={portfolioData.socials.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <Github className="h-5 w-5" />
+              </a>
+            </Button>
           <Button asChild variant="ghost" size="icon">
             <a href={`mailto:${portfolioData.socials.email}`} aria-label="Email">
               <Mail className="h-5 w-5" />

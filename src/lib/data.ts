@@ -96,8 +96,9 @@ export const portfolioData = {
       duration: "6 weeks",
   },
   socials: {
-    linkedin: "https://linkedin.com/in/jessica-b-8a18a2334",
+    linkedin: "https://www.linkedin.com/in/jessica-b-8a18a2334/",
     email: "jessicabenno28@gmail.com",
+    github: "https://github.com/Jessica-ops-star",
   },
   contact: {
     title: "Let's create something amazing together.",
