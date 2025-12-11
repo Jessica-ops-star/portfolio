@@ -6,7 +6,7 @@ export const portfolioData = {
       "A passionate CSE student who loves building meaningful tech solutions and exploring real-world problem solving through projects and hackathons.",
   },
   about:
-    "Welcome to my portfolio.\nThis design is built around a futuristic visual language—deep gradients, soft textures, and glowing accent colors that create an immersive digital atmosphere.\n\nThe interface uses frosted-glass pill buttons, rounded edges, and smooth micro-interactions to make the entire experience feel light and effortless.\nEvery element is placed with intention: clean typography to highlight content, minimal navigation to reduce noise, and subtle animations to guide attention naturally.\n\nThe dark cosmic background adds depth, while the neon purples bring character and modern energy.\nA 3D avatar introduces a friendly, personal touch, making the design feel both professional and approachable.\n\nOverall, this portfolio is a blend of aesthetics and usability — visually striking, modern, and designed to help visitors understand my work quickly and enjoy the journey while exploring it.",
+    "I'm Jessica, a motivated and hardworking Computer Science Engineering student from Chennai. I enjoy learning new technologies, solving problems, and building practical, real-world projects. With strong communication, teamwork, and adaptability, I love taking on challenges and growing through hands-on experience.",
   whatIDo: [
     {
       title: "Web Development",
@@ -77,12 +77,15 @@ export const portfolioData = {
     "VisAIon Hacks'25",
   ],
   certifications: [
-    "Certified in Python for Data Science",
-    "Google Cloud Certified - Associate Cloud Engineer",
-    "Cisco Certified Network Associate (CCNA)",
-    "Microsoft Certified: Azure Fundamentals",
-    "AWS Certified Cloud Practitioner",
+    "JLPT N5 cleared",
+    "Python for data science (silver + elite)-NPTEL",
+    "Ethical hacking (elite)-NPTEL",
+    "Core Java Programming Revisited-Infosys Springboard",
   ],
+  internship: {
+      title: "1M1M AI for Sustainability",
+      duration: "6 weeks",
+  },
   contact: {
     title: "Let’s Create Something Amazing Together ✨",
   },
