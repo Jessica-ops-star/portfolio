@@ -2,33 +2,33 @@
   "placeholderImages": [
     {
       "id": "avatar",
-      "description": "3D style avatar of a student",
-      "imageUrl": "https://images.unsplash.com/photo-1740252117044-2af197eea287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHwzZCUyMGF2YXRhcnxlbnwwfHx8fDE3NjU0NDAxNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "3d avatar"
+      "description": "3D style avatar of a UI/UX designer",
+      "imageUrl": "https://images.unsplash.com/photo-1615843423179-bea071facf96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHwzZCUyMGRlc2lnbmVyJTIwYXZhdGFyfGVufDB8fHx8MTc2NTQ0MDkzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "3d designer avatar"
     },
     {
-      "id": "blood-connect",
-      "description": "Abstract representation of network and health",
-      "imageUrl": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGglMjB0ZWNofGVufDB8fHx8MTc2NTQ0MDE0NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "health tech"
+      "id": "ecommerce-app",
+      "description": "Mobile app interface for an e-commerce platform",
+      "imageUrl": "https://images.unsplash.com/photo-1480694313141-fce5e697ee25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzY1MzMzODgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app"
     },
     {
-      "id": "od-tracker",
-      "description": "Dashboard UI for tracking system",
-      "imageUrl": "https://images.unsplash.com/photo-1758411898158-213a318e2442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkYXNoYm9hcmQlMjBzeXN0ZW18ZW58MHx8fHwxNzY1NDQwMTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "dashboard system"
+      "id": "saas-dashboard",
+      "description": "Dashboard UI for a SaaS application",
+      "imageUrl": "https://images.unsplash.com/photo-1643982102543-bc057db646cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGFzaGJvYXJkJTIwdWl8ZW58MHx8fHwxNzY1Mzc3NTI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard ui"
     },
     {
-      "id": "cart-vision",
-      "description": "Futuristic retail technology concept",
-      "imageUrl": "https://images.unsplash.com/photo-1633526544365-a98d534c9201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyZXRhaWwlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc2NTMyNDA1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "retail technology"
+      "id": "healthcare-website",
+      "description": "Clean and modern website design for a healthcare provider",
+      "imageUrl": "https://images.unsplash.com/photo-1659353888906-adb3e0041693?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoZWFsdGhjYXJlJTIwd2Vic2l0ZXxlbnwwfHx8fDE3NjU0NDA5Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthcare website"
     },
     {
-      "id": "safe-streets",
-      "description": "Concept art for a safety wearable device",
-      "imageUrl": "https://images.unsplash.com/photo-1722488359737-7a9b8a8436c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpb3QlMjBzYWZldHl8ZW58MHx8fHwxNzY1NDQwMTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "iot safety"
+      "id": "travel-platform",
+      "description": "Visually appealing interface for a travel booking website",
+      "imageUrl": "https://images.unsplash.com/photo-1711360986791-fdf2bbcd830d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0cmF2ZWwlMjB3ZWJzaXRlfGVufDB8fHx8MTc2NTM1MzY5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "travel website"
     }
   ]
 }

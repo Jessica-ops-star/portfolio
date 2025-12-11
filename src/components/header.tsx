@@ -1,39 +1,44 @@
 "use client";
 
 import Link from "next/link";
-import { Menu } from "lucide-react";
+import { Menu, Code } from "lucide-react";
 import { useState } from "react";
-import { portfolioData } from "@/lib/data";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 
 const navItems = [
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "#home" },
+  { name: "Services", href: "#services" },
+  { name: "Our Works", href: "#projects" },
+  { name: "Reviews", href: "#reviews" },
+  { name: "Contact Us", href: "#contact" },
 ];
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur-sm">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link href="/" className="font-headline text-xl font-bold text-primary">
-          {portfolioData.name}
+    <header className="sticky top-0 z-50 w-full border-b border-transparent bg-background/80 backdrop-blur-sm">
+      <div className="container mx-auto flex h-20 items-center justify-between px-4">
+        <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold">
+           <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/20">
+             <Code className="h-5 w-5 text-primary" />
+           </div>
         </Link>
-        <nav className="hidden items-center space-x-6 md:flex">
+        <nav className="hidden items-center rounded-full bg-secondary/50 px-4 py-2 md:flex">
           {navItems.map((item) => (
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              className="rounded-full px-4 py-1.5 text-sm font-medium text-muted-foreground transition-all hover:bg-primary/10 hover:text-primary"
             >
               {item.name}
             </Link>
           ))}
         </nav>
+        <Button asChild className="hidden md:flex">
+          <Link href="#contact">Contact Us</Link>
+        </Button>
         <div className="md:hidden">
           <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
             <SheetTrigger asChild>
