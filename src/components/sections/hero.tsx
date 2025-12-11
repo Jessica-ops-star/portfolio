@@ -12,10 +12,11 @@ export default function Hero() {
   return (
     <section id="home" className="relative container mx-auto flex min-h-[calc(100dvh-5rem)] items-center px-4">
       <div className="absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/10 rounded-full blur-3xl"></div>
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl"></div>
       </div>
       <div className="grid w-full grid-cols-1 items-center gap-12 lg:grid-cols-2">
         <div className="order-2 text-center lg:order-1 lg:text-left">
+           <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">Welcome to my World ✨</p>
           <h1 className="mt-4 font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
             Hi, I'm {portfolioData.name}
           </h1>
@@ -38,21 +39,25 @@ export default function Hero() {
             </Button>
           </div>
 
-          <div className="mt-8 flex justify-center gap-4 lg:justify-start">
-            <a href={portfolioData.socials.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
-              className="text-muted-foreground transition-colors hover:text-primary">
-              <Linkedin className="h-6 w-6" />
-            </a>
-            <a href={`mailto:${portfolioData.socials.email}`} aria-label="Email"
-              className="text-muted-foreground transition-colors hover:text-primary">
-              <Mail className="h-6 w-6" />
-            </a>
+          <div className="mt-8 flex justify-center gap-2 lg:justify-start">
+            <Button asChild variant="ghost" size="icon">
+              <a href={portfolioData.socials.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+                className="text-muted-foreground transition-colors hover:text-primary">
+                <Linkedin className="h-6 w-6" />
+              </a>
+            </Button>
+            <Button asChild variant="ghost" size="icon">
+              <a href={`mailto:${portfolioData.socials.email}`} aria-label="Email"
+                className="text-muted-foreground transition-colors hover:text-primary">
+                <Mail className="h-6 w-6" />
+              </a>
+            </Button>
           </div>
         </div>
         <div className="order-1 flex justify-center lg:order-2">
           {avatarImage && (
             <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[450px] lg:h-[450px]">
-              <div className="absolute inset-0 rounded-full bg-primary/20 blur-3xl"></div>
+              <div className="absolute inset-0 rounded-full bg-primary/10 blur-3xl animate-pulse"></div>
               <Image
                 src={avatarImage.imageUrl}
                 alt={avatarImage.description}
@@ -70,8 +75,8 @@ export default function Hero() {
       </div>
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
         <Link href="#about">
-            <div className="h-10 w-10 rounded-full border border-primary/50 flex items-center justify-center animate-bounce">
-                <ChevronDown className="h-6 w-6 text-primary" />
+            <div className="h-10 w-10 rounded-full border-2 border-white/10 flex items-center justify-center animate-bounce transition-colors hover:bg-primary/10">
+                <ChevronDown className="h-6 w-6 text-white/50" />
             </div>
         </Link>
       </div>
