@@ -1,3 +1,4 @@
+
 export const portfolioData = {
   name: "Jessica B",
   role: "Computer Science Engineering Student",
@@ -67,7 +68,7 @@ export const portfolioData = {
   },
   skills: {
     technical: ["Java", "Python", "C", "MySQL"],
-    soft: ["Communication", "Teamwork", "Problem Solving", "English", "Tamil", "Japanese (N4)"]
+    soft: ["Communication", "Teamwork", "Problem Solving"]
   },
   achievements: [
     "EMF'25 — 3rd place",
