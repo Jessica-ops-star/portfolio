@@ -6,7 +6,7 @@ export default function Achievements() {
   return (
     <Section id="achievements" className="container mx-auto px-4">
       <div className="text-center">
-        <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
+        <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-glow">
           Hackathons & Achievements
         </h2>
         <p className="mt-4 text-muted-foreground">

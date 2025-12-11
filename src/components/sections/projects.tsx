@@ -20,7 +20,7 @@ export default function Projects() {
   return (
     <Section id="projects" className="container mx-auto px-4">
       <div className="text-center">
-        <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
+        <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-glow">
           My Projects
         </h2>
         <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">
@@ -41,7 +41,7 @@ export default function Projects() {
             return (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
-                  <Card className="group h-full overflow-hidden bg-card/50 backdrop-blur-sm border-border transition-all duration-300 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/20">
+                  <Card className="group h-full overflow-hidden bg-card/50 backdrop-blur-sm border-border transition-all duration-300 hover:border-primary/50 hover:shadow-2xl card-glow hover:card-glow">
                     <CardHeader className="p-0">
                       <div className="relative h-48 w-full overflow-hidden">
                         {projectImage && (

@@ -9,77 +9,78 @@
   }
 
   :root {
-    --background: 265 60% 8%; /* Very dark purple, almost black */
-    --foreground: 240 50% 96%; /* Light lavender */
+    /* Exact Color Palette from Template */
+    --background: 257 74% 11%; /* Deep Purple based on #3A1C96 */
+    --foreground: 259 100% 95%; /* Soft White based on #E9E6FF */
     
-    --card: 268 40% 12%;
-    --card-foreground: 240 50% 96%;
+    --card: 256 100% 79% / 0.1; /* Glass Card: #FFFFFF1A -> rgba(255, 255, 255, 0.1) -> hsla(0, 0%, 100%, 0.1) - but let's use a purple tint */
+    --card-foreground: 259 100% 95%;
     
-    --popover: 270 50% 5%;
-    --popover-foreground: 240 50% 96%;
+    --popover: 257 74% 8%;
+    --popover-foreground: 259 100% 95%;
     
-    --primary: 270 90% 70%; /* Vibrant, brighter purple */
-    --primary-foreground: 240 50% 98%;
+    --primary: 256 100% 64%; /* Main Background Purple: #6C47FF */
+    --primary-foreground: 259 100% 95%;
     
-    --secondary: 270 30% 20%;
-    --secondary-foreground: 240 50% 96%;
+    --secondary: 259 100% 85%; /* Light Lavender Highlight: #C9B3FF */
+    --secondary-foreground: 257 74% 11%;
     
-    --muted: 270 30% 20%;
-    --muted-foreground: 240 10% 65%;
+    --muted: 256 100% 79% / 0.1;
+    --muted-foreground: 255 33% 88%; /* Light Purple Text: #C8C2FF */
     
-    --accent: 270 90% 70%;
-    --accent-foreground: 240 50% 98%;
+    --accent: 256 100% 70%; /* Violet Glow: #8A5EFF */
+    --accent-foreground: #FFFFFF;
     
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 270 30% 25%;
-    --input: 270 30% 25%;
-    --ring: 270 90% 75%;
+    --border: 265 67% 65% / 0.2; /* Card Glow Border: #A774FF, with opacity */
+    --input: 255 33% 88% / 0.1;
+    --ring: 256 100% 70%;
 
     --radius: 0.75rem;
     
-    --chart-1: 270 90% 70%;
-    --chart-2: 280 80% 65%;
-    --chart-3: 290 75% 60%;
-    --chart-4: 260 85% 75%;
-    --chart-5: 300 70% 65%;
+    --chart-1: 256 100% 64%;
+    --chart-2: 284 100% 71%;
+    --chart-3: 319 100% 73%;
+    --chart-4: 195 100% 71%;
+    --chart-5: 205 100% 81%;
   }
  
   .dark {
-    --background: 265 60% 8%;
-    --foreground: 240 50% 96%;
+    --background: 257 74% 11%;
+    --foreground: 259 100% 95%;
     
-    --card: 268 40% 12%;
-    --card-foreground: 240 50% 96%;
+    --card: 256 100% 90% / 0.05;
+    --card-foreground: 259 100% 95%;
 
-    --popover: 270 50% 5%;
-    --popover-foreground: 240 50% 96%;
+    --popover: 257 74% 8%;
+    --popover-foreground: 259 100% 95%;
 
-    --primary: 270 90% 70%;
-    --primary-foreground: 240 50% 98%;
+    --primary: 256 100% 64%;
+    --primary-foreground: 259 100% 95%;
 
-    --secondary: 270 30% 20%;
-    --secondary-foreground: 240 50% 96%;
+    --secondary: 259 100% 85%;
+    --secondary-foreground: 257 74% 11%;
 
-    --muted: 270 30% 20%;
-    --muted-foreground: 240 10% 65%;
+    --muted: 256 100% 79% / 0.1;
+    --muted-foreground: 255 33% 88%;
 
-    --accent: 270 90% 70%;
-    --accent-foreground: 240 50% 98%;
+    --accent: 256 100% 70%;
+    --accent-foreground: #FFFFFF;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 270 30% 25%;
-    --input: 270 30% 25%;
-    --ring: 270 90% 75%;
+    --border: 265 67% 65% / 0.2;
+    --input: 255 33% 88% / 0.1;
+    --ring: 256 100% 70%;
     
-    --chart-1: 270 90% 70%;
-    --chart-2: 280 80% 65%;
-    --chart-3: 290 75% 60%;
-    --chart-4: 260 85% 75%;
-    --chart-5: 300 70% 65%;
+    --chart-1: 256 100% 64%;
+    --chart-2: 284 100% 71%;
+    --chart-3: 319 100% 73%;
+    --chart-4: 195 100% 71%;
+    --chart-5: 205 100% 81%;
   }
 }
  
@@ -89,12 +90,22 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-image: radial-gradient(ellipse 50% 50% at 50% 50%, hsl(var(--primary)/0.15), transparent 80%);
+    background-color: hsl(257, 74%, 11%);
+    background-image: 
+      radial-gradient(ellipse 80% 50% at 50% -20%, hsl(256 100% 64% / 0.3), transparent),
+      radial-gradient(ellipse 80% 80% at 0% 100%, hsl(319 100% 73% / 0.15), transparent),
+      radial-gradient(ellipse 80% 80% at 100% 100%, hsl(195 100% 71% / 0.15), transparent);
   }
 }
 
 @layer utilities {
   .text-glow {
-    text-shadow: 0 0 8px hsl(var(--primary) / 0.5), 0 0 20px hsl(var(--primary) / 0.2);
+    text-shadow: 0 0 8px hsl(var(--primary) / 0.8), 0 0 20px hsl(var(--accent) / 0.5);
+  }
+  .card-glow {
+    box-shadow: 0 0 20px hsl(var(--primary)/0.1), 0 0 40px hsl(var(--accent)/0.1);
+  }
+  .button-glow {
+    box-shadow: 0 4px 15px 0 hsl(256 100% 64% / 0.4);
   }
 }

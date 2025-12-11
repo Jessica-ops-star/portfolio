@@ -14,39 +14,24 @@ const iconMap = {
 };
 
 export default function Skills() {
+  const allSkills = portfolioData.skills.flatMap(category => category.items);
+
   return (
     <Section id="skills" className="container mx-auto px-4">
       <div className="text-center">
-        <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
+        <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-glow">
           My Skills
         </h2>
         <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">
           The technologies and skills I use to bring ideas to life.
         </p>
       </div>
-      <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {portfolioData.skills.map((skillCategory, index) => {
-          const Icon = iconMap[skillCategory.category as keyof typeof iconMap] || Code;
-          return (
-            <Card key={index} className="bg-card/50">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-3">
-                  <Icon className="h-6 w-6 text-primary" />
-                  <span className="font-headline">{skillCategory.category}</span>
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  {skillCategory.items.map((skill, skillIndex) => (
-                    <Badge key={skillIndex} variant="secondary" className="text-sm">
-                      {skill}
-                    </Badge>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          );
-        })}
+      <div className="mt-12 flex flex-wrap justify-center gap-3">
+        {allSkills.map((skill, index) => (
+          <Badge key={index} variant="secondary" className="text-base px-4 py-2">
+            {skill}
+          </Badge>
+        ))}
       </div>
     </Section>
   );

@@ -6,9 +6,9 @@ export const portfolioData = {
     email: "jessica.b@example.com",
   },
   hero: {
-    intro: "A passionate CSE student who loves building meaningful tech solutions and exploring real-world problem solving through projects and hackathons.",
+    intro: "A passionate CSE student who enjoys building meaningful tech solutions and exploring real-world problem solving through projects and hackathons.",
   },
-  about: "I’m Jessica, a motivated and hardworking Computer Science Engineering student from Chennai. I enjoy learning new technologies, solving problems, and building practical, real-world projects. With strong communication, teamwork, and adaptability, I strive to grow through hands-on experience and meaningful collaborations.",
+  about: "I'm Jessica, a motivated and hardworking Computer Science Engineering student from Chennai. I enjoy learning new technologies, solving problems, and building practical, real-world projects. With strong communication, teamwork, and adaptability, I love taking on challenges and growing through hands-on experience.",
   education: {
     degree: "B.E. Computer Science and Engineering",
     college: "Easwari Engineering College",
@@ -18,19 +18,19 @@ export const portfolioData = {
   whatIDo: [
     {
       title: "Web Development",
-      description: "Creating simple and responsive web platforms.",
+      description: "Creating simple and responsive platforms using modern tools.",
     },
     {
       title: "App Prototyping",
-      description: "Designing intuitive UI flows for student-oriented apps.",
+      description: "Designing intuitive UI mockups and student-focused interfaces.",
     },
     {
       title: "Problem Solving",
-      description: "Turning real needs into functional tech solutions.",
+      description: "Turning ideas into functional and meaningful tech solutions.",
     },
     {
       title: "AI & Tech Exploration",
-      description: "Experimenting with Python, automation, and AI concepts.",
+      description: "Experimenting with Python, AI concepts, and automation.",
     },
   ],
   skills: [
@@ -50,10 +50,6 @@ export const portfolioData = {
       category: "Languages",
       items: ["English", "Tamil", "Japanese (N4)"],
     },
-    {
-      category: "Certificates",
-      items: ["Python for Data Science (NPTEL)", "Ethical Hacking (NPTEL)", "Core Java (Infosys Springboard)", "JLPT N5"],
-    }
   ],
   projects: [
     {
@@ -64,25 +60,25 @@ export const portfolioData = {
     },
     {
       title: "OD Tracker System",
-      tag: "Web Design",
-      description: "A workflow automation tool for on-duty approvals with dashboards and real-time status tracking.",
+      tag: "Web Platform",
+      description: "Automates the on-duty approval workflow with role-based dashboards and real-time tracking.",
       image_id: "od-tracker",
     },
     {
       title: "CartVision AI",
       tag: "AI Project",
-      description: "An AI-powered retail assistant that detects products without barcodes and updates carts using computer vision.",
+      description: "An AI-powered retail assistant that detects products without barcodes and updates cart items using computer vision.",
       image_id: "cart-vision",
     },
     {
       title: "Safe Streets",
       tag: "IoT + App",
-      description: "A smart safety jacket with SOS alerts and real-time location updates.",
+      description: "A smart safety jacket with SOS alerts and real-time location updates for emergencies.",
       image_id: "safe-streets",
     },
   ],
   achievements: [
-    "EMF'25 — 3rd Place",
+    "EMF'25 — 3rd place",
     "Zero Gravity'25",
     "Ignite'25",
     "INNOTHON'25",

@@ -29,13 +29,13 @@ export default function About() {
           )}
         </div>
         <div className="md:col-span-2">
-          <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
+          <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-glow">
             About Me
           </h2>
           <p className="mt-4 max-w-2xl text-muted-foreground">
             {portfolioData.about}
           </p>
-          <Card className="mt-8 flex flex-col justify-center bg-card/50 shadow-2xl shadow-primary/10">
+          <Card className="mt-8 flex flex-col justify-center bg-card/50 shadow-2xl card-glow">
             <CardHeader>
               <CardTitle className="flex items-center gap-3">
                 <GraduationCap className="h-8 w-8 text-primary" />
