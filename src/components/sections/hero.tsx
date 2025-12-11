@@ -12,23 +12,23 @@ export default function Hero() {
   return (
     <section id="home" className="relative container mx-auto flex min-h-[calc(100dvh-5rem)] items-center px-4">
       <div className="absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl"></div>
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
       </div>
       <div className="grid w-full grid-cols-1 items-center gap-12 lg:grid-cols-2">
-        <div className="order-2 text-center lg:order-1 lg:text-left">
+        <div className="order-1 text-center lg:text-left">
            <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">Welcome to my World ✨</p>
           <h1 className="mt-4 font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
             Hi, I'm {portfolioData.name}
           </h1>
-          <h2 className="mt-2 font-headline text-3xl font-bold text-primary sm:text-4xl">
-            {portfolioData.role}
+          <h2 className="mt-2 font-headline text-3xl font-bold text-glow sm:text-4xl">
+            <span className="text-primary">{portfolioData.role.split(' ').slice(0, 2).join(' ')}</span> {portfolioData.role.split(' ').slice(2).join(' ')}
           </h2>
           <p className="mt-6 max-w-xl mx-auto text-lg text-muted-foreground lg:mx-0">
             {portfolioData.hero.intro}
           </p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start">
-            <Button asChild size="lg">
+            <Button asChild size="lg" variant="secondary">
               <Link href="#projects">My Projects</Link>
             </Button>
             <Button asChild variant="outline" size="lg">
@@ -54,10 +54,11 @@ export default function Hero() {
             </Button>
           </div>
         </div>
-        <div className="order-1 flex justify-center lg:order-2">
+        <div className="order-2 flex justify-center lg:order-2">
           {avatarImage && (
             <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[450px] lg:h-[450px]">
-              <div className="absolute inset-0 rounded-full bg-primary/10 blur-3xl animate-pulse"></div>
+              <div className="absolute -inset-8 rounded-full bg-primary/20 blur-3xl animate-pulse"></div>
+               <div className="absolute inset-0 border-4 border-primary/50 rounded-[60px] animate-pulse -rotate-12"></div>
               <Image
                 src={avatarImage.imageUrl}
                 alt={avatarImage.description}

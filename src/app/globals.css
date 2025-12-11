@@ -5,81 +5,81 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-    scroll-padding-top: 6rem;
+    scroll-padding-top: 5rem;
   }
 
   :root {
-    --background: 270 50% 5%; /* Very dark purple */
-    --foreground: 240 50% 95%; /* Light lavender */
+    --background: 265 60% 8%; /* Very dark purple, almost black */
+    --foreground: 240 50% 96%; /* Light lavender */
     
-    --card: 276 35% 12%;
-    --card-foreground: 240 50% 95%;
+    --card: 268 40% 12%;
+    --card-foreground: 240 50% 96%;
     
-    --popover: 276 40% 8%;
-    --popover-foreground: 240 50% 95%;
+    --popover: 270 50% 5%;
+    --popover-foreground: 240 50% 96%;
     
-    --primary: 265 89% 70%; /* Vibrant, brighter purple */
+    --primary: 270 90% 70%; /* Vibrant, brighter purple */
     --primary-foreground: 240 50% 98%;
     
-    --secondary: 276 25% 18%;
-    --secondary-foreground: 240 50% 95%;
+    --secondary: 270 30% 20%;
+    --secondary-foreground: 240 50% 96%;
     
-    --muted: 276 25% 18%;
+    --muted: 270 30% 20%;
     --muted-foreground: 240 10% 65%;
     
-    --accent: 265 80% 65%;
+    --accent: 270 90% 70%;
     --accent-foreground: 240 50% 98%;
     
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 276 30% 22%;
-    --input: 276 30% 22%;
-    --ring: 265 89% 75%;
+    --border: 270 30% 25%;
+    --input: 270 30% 25%;
+    --ring: 270 90% 75%;
 
     --radius: 0.75rem;
     
-    --chart-1: 265 89% 70%;
-    --chart-2: 275 80% 65%;
-    --chart-3: 285 75% 60%;
-    --chart-4: 255 85% 75%;
-    --chart-5: 295 70% 65%;
+    --chart-1: 270 90% 70%;
+    --chart-2: 280 80% 65%;
+    --chart-3: 290 75% 60%;
+    --chart-4: 260 85% 75%;
+    --chart-5: 300 70% 65%;
   }
  
   .dark {
-    --background: 270 50% 5%; /* Very dark purple */
-    --foreground: 240 50% 95%; /* Light lavender */
+    --background: 265 60% 8%;
+    --foreground: 240 50% 96%;
     
-    --card: 276 35% 12%;
-    --card-foreground: 240 50% 95%;
+    --card: 268 40% 12%;
+    --card-foreground: 240 50% 96%;
 
-    --popover: 276 40% 8%;
-    --popover-foreground: 240 50% 95%;
+    --popover: 270 50% 5%;
+    --popover-foreground: 240 50% 96%;
 
-    --primary: 265 89% 70%; /* Vibrant, brighter purple */
+    --primary: 270 90% 70%;
     --primary-foreground: 240 50% 98%;
 
-    --secondary: 276 25% 18%;
-    --secondary-foreground: 240 50% 95%;
+    --secondary: 270 30% 20%;
+    --secondary-foreground: 240 50% 96%;
 
-    --muted: 276 25% 18%;
+    --muted: 270 30% 20%;
     --muted-foreground: 240 10% 65%;
 
-    --accent: 265 80% 65%;
+    --accent: 270 90% 70%;
     --accent-foreground: 240 50% 98%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 276 30% 22%;
-    --input: 276 30% 22%;
-    --ring: 265 89% 75%;
+    --border: 270 30% 25%;
+    --input: 270 30% 25%;
+    --ring: 270 90% 75%;
     
-    --chart-1: 265 89% 70%;
-    --chart-2: 275 80% 65%;
-    --chart-3: 285 75% 60%;
-    --chart-4: 255 85% 75%;
-    --chart-5: 295 70% 65%;
+    --chart-1: 270 90% 70%;
+    --chart-2: 280 80% 65%;
+    --chart-3: 290 75% 60%;
+    --chart-4: 260 85% 75%;
+    --chart-5: 300 70% 65%;
   }
 }
  
@@ -89,7 +89,12 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-image: radial-gradient(circle at 15% 25%, hsl(var(--primary)/0.1), transparent 30%),
-                      radial-gradient(circle at 85% 75%, hsl(var(--primary)/0.08), transparent 30%);
+    background-image: radial-gradient(ellipse 50% 50% at 50% 50%, hsl(var(--primary)/0.15), transparent 80%);
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 8px hsl(var(--primary) / 0.5), 0 0 20px hsl(var(--primary) / 0.2);
   }
 }

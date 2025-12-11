@@ -5,7 +5,6 @@ import { Menu, Code } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
-import { portfolioData } from "@/lib/data";
 
 const navItems = [
   { name: "Home", href: "#home" },
@@ -17,30 +16,34 @@ const navItems = [
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [activeItem, setActiveItem] = useState("Home");
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-white/5 bg-background/80 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-background/80 backdrop-blur-sm">
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-3 font-headline text-xl font-bold">
-           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-foreground text-background">
+        <Link href="/" className="flex items-center gap-3 text-xl font-bold">
+           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-foreground/10 border border-foreground/20 text-foreground">
              <Code className="h-6 w-6" />
            </div>
-           {/* <span>{portfolioData.name}</span> */}
         </Link>
-        <nav className="hidden items-center rounded-full bg-white/5 px-3 py-2 md:flex">
+        
+        <nav className="hidden items-center justify-center rounded-full bg-white/5 px-3 py-2 md:flex">
           {navItems.map((item) => (
             <Link
               key={item.name}
               href={item.href}
-              className="rounded-full px-4 py-1.5 text-sm font-medium text-muted-foreground transition-all hover:bg-white/10 hover:text-foreground"
+              onClick={() => setActiveItem(item.name)}
+              className={`relative rounded-full px-4 py-1.5 text-sm font-medium text-muted-foreground transition-all duration-300 hover:text-foreground ${activeItem === item.name ? 'bg-primary text-primary-foreground' : ''}`}
             >
               {item.name}
             </Link>
           ))}
         </nav>
-        <Button asChild className="hidden md:flex" variant="outline">
+        
+        <Button asChild className="hidden md:flex" variant="primary">
           <Link href="#contact">Contact Me</Link>
         </Button>
+        
         <div className="md:hidden">
           <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
             <SheetTrigger asChild>
