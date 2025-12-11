@@ -3,19 +3,16 @@ import Link from "next/link";
 import { portfolioData } from "@/lib/data";
 import { getPlaceholderImage } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
-import { Linkedin, Twitter, Dribbble, Instagram, FileDown, ChevronDown } from "lucide-react";
+import { Linkedin, Mail, FileDown, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export default function Hero() {
-  const avatarImage = getPlaceholderImage("avatar");
+  const avatarImage = getPlaceholderImage("avatar-hero");
 
   return (
     <section id="home" className="relative container mx-auto flex min-h-[calc(100dvh-5rem)] items-center px-4">
       <div className="grid w-full grid-cols-1 items-center gap-12 lg:grid-cols-2">
         <div className="order-2 text-center lg:order-1 lg:text-left">
-          <p className="font-headline text-sm font-medium uppercase text-primary tracking-widest">
-            {portfolioData.hero.tagline}
-          </p>
           <h1 className="mt-4 font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
             Hi, I'm {portfolioData.name}
           </h1>
@@ -31,8 +28,7 @@ export default function Hero() {
               <Link href="#projects">My Projects</Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-               {/* This should point to the actual CV file path */}
-              <a href="/sara_howari_cv.pdf" download>
+              <a href="/jessica_b_cv.pdf" download>
                 <FileDown className="mr-2 h-4 w-4" />
                 Download CV
               </a>
@@ -44,17 +40,9 @@ export default function Hero() {
               className="text-muted-foreground transition-colors hover:text-primary">
               <Linkedin className="h-6 w-6" />
             </a>
-             <a href={portfolioData.socials.twitter} target="_blank" rel="noopener noreferrer" aria-label="Twitter"
+            <a href={`mailto:${portfolioData.socials.email}`} aria-label="Email"
               className="text-muted-foreground transition-colors hover:text-primary">
-              <Twitter className="h-6 w-6" />
-            </a>
-             <a href={portfolioData.socials.dribbble} target="_blank" rel="noopener noreferrer" aria-label="Dribbble"
-              className="text-muted-foreground transition-colors hover:text-primary">
-              <Dribbble className="h-6 w-6" />
-            </a>
-            <a href={portfolioData.socials.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram"
-              className="text-muted-foreground transition-colors hover:text-primary">
-              <Instagram className="h-6 w-6" />
+              <Mail className="h-6 w-6" />
             </a>
           </div>
         </div>

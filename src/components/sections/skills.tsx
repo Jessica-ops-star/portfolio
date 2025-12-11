@@ -2,13 +2,15 @@ import { portfolioData } from "@/lib/data";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Section } from "@/components/ui/section";
-import { Code, Database, MessageSquare, Languages } from "lucide-react";
+import { Code, Database, MessageSquare, Languages, Award, BrainCircuit } from "lucide-react";
 
 const iconMap = {
   Programming: Code,
   Database: Database,
   "Soft Skills": MessageSquare,
   Languages: Languages,
+  Certificates: Award,
+  Tools: BrainCircuit,
 };
 
 export default function Skills() {
@@ -22,7 +24,7 @@ export default function Skills() {
           The technologies and skills I use to bring ideas to life.
         </p>
       </div>
-      <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {portfolioData.skills.map((skillCategory, index) => {
           const Icon = iconMap[skillCategory.category as keyof typeof iconMap] || Code;
           return (

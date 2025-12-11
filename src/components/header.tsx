@@ -5,13 +5,14 @@ import { Menu, Code } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
+import { portfolioData } from "@/lib/data";
 
 const navItems = [
   { name: "Home", href: "#home" },
-  { name: "Services", href: "#services" },
-  { name: "Our Works", href: "#projects" },
-  { name: "Reviews", href: "#reviews" },
-  { name: "Contact Us", href: "#contact" },
+  { name: "About", href: "#about" },
+  { name: "Projects", href: "#projects" },
+  { name: "Skills", href: "#skills" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export default function Header() {
@@ -24,6 +25,7 @@ export default function Header() {
            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/20">
              <Code className="h-5 w-5 text-primary" />
            </div>
+           <span>{portfolioData.name}</span>
         </Link>
         <nav className="hidden items-center rounded-full bg-secondary/50 px-4 py-2 md:flex">
           {navItems.map((item) => (
@@ -37,7 +39,7 @@ export default function Header() {
           ))}
         </nav>
         <Button asChild className="hidden md:flex">
-          <Link href="#contact">Contact Us</Link>
+          <Link href="#contact">Contact Me</Link>
         </Button>
         <div className="md:hidden">
           <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>

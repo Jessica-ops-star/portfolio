@@ -1,10 +1,20 @@
+"use client";
+
 import Image from "next/image";
+import Link from "next/link";
 import { portfolioData } from "@/lib/data";
 import { getPlaceholderImage } from "@/lib/placeholder-images";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Section } from "@/components/ui/section";
-import { ExternalLink } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 export default function Projects() {
   return (
@@ -18,38 +28,52 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="mt-12 grid gap-8 md:grid-cols-2">
-        {portfolioData.projects.map((project, index) => {
-          const projectImage = getPlaceholderImage(project.image_id);
-          return (
-            <Card 
-              key={index}
-              className="group relative overflow-hidden bg-card/30 backdrop-blur-sm border-primary/20 transition-all duration-300 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/20"
-            >
-              <CardHeader>
-                <div className="relative mb-4 h-48 w-full overflow-hidden rounded-lg">
-                  {projectImage && (
-                    <Image
-                      src={projectImage.imageUrl}
-                      alt={project.title}
-                      data-ai-hint={projectImage.imageHint}
-                      fill
-                      className="object-cover transition-transform duration-300 group-hover:scale-105"
-                    />
-                  )}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+      <Carousel
+        opts={{
+          align: "start",
+          loop: true,
+        }}
+        className="mx-auto mt-12 w-full max-w-sm md:max-w-2xl lg:max-w-4xl"
+      >
+        <CarouselContent>
+          {portfolioData.projects.map((project, index) => {
+            const projectImage = getPlaceholderImage(project.image_id);
+            return (
+              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                <div className="p-1">
+                  <Card className="group h-full overflow-hidden bg-card/30 backdrop-blur-sm border-primary/20 transition-all duration-300 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/20">
+                    <CardHeader className="p-0">
+                      <div className="relative h-48 w-full overflow-hidden">
+                        {projectImage && (
+                          <Image
+                            src={projectImage.imageUrl}
+                            alt={project.title}
+                            data-ai-hint={projectImage.imageHint}
+                            fill
+                            className="object-cover transition-transform duration-300 group-hover:scale-105"
+                          />
+                        )}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                      </div>
+                    </CardHeader>
+                    <CardContent className="p-4">
+                      <Badge variant="secondary" className="mb-2">{project.tag}</Badge>
+                      <CardTitle className="font-headline text-lg">{project.title}</CardTitle>
+                      <p className="mt-2 text-sm text-muted-foreground">{project.description}</p>
+                    </CardContent>
+                  </Card>
                 </div>
-                <CardTitle className="flex items-center justify-between">
-                  <span className="font-headline text-xl">{project.title}</span>
-                  <ExternalLink className="h-5 w-5 text-muted-foreground transition-colors group-hover:text-primary" />
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>{project.description}</CardDescription>
-              </CardContent>
-            </Card>
-          );
-        })}
+              </CarouselItem>
+            );
+          })}
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
+      <div className="mt-8 text-center">
+        <Button asChild variant="outline">
+            <Link href="#">See All</Link>
+        </Button>
       </div>
     </Section>
   );

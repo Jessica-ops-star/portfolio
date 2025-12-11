@@ -1,34 +1,40 @@
 {
   "placeholderImages": [
     {
-      "id": "avatar",
-      "description": "3D style avatar of a UI/UX designer",
-      "imageUrl": "https://images.unsplash.com/photo-1615843423179-bea071facf96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHwzZCUyMGRlc2lnbmVyJTIwYXZhdGFyfGVufDB8fHx8MTc2NTQ0MDkzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "3d designer avatar"
+      "id": "avatar-hero",
+      "description": "3D style avatar of a female computer science student with glasses",
+      "imageUrl": "https://images.unsplash.com/photo-1750535135696-4421c9a90746?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHwzZCUyMGZlbWFsZSUyMGF2YXRhcnxlbnwwfHx8fDE3NjU0NDE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "3d female avatar"
     },
     {
-      "id": "ecommerce-app",
-      "description": "Mobile app interface for an e-commerce platform",
-      "imageUrl": "https://images.unsplash.com/photo-1480694313141-fce5e697ee25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzY1MzMzODgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile app"
+      "id": "avatar-about",
+      "description": "3D style avatar of a female computer science student working on a laptop",
+      "imageUrl": "https://images.unsplash.com/photo-1716681864533-9b0ceaa2e4e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHwzZCUyMGF2YXRhciUyMGxhcHRvcHxlbnwwfHx8fDE3NjU0NDE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "3d avatar laptop"
     },
     {
-      "id": "saas-dashboard",
-      "description": "Dashboard UI for a SaaS application",
-      "imageUrl": "https://images.unsplash.com/photo-1643982102543-bc057db646cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGFzaGJvYXJkJTIwdWl8ZW58MHx8fHwxNzY1Mzc3NTI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "blood-connect",
+      "description": "Mobile app interface for a blood donation platform",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb2JpbGUlMjBhcHAlMjBoZWFsdGh8ZW58MHx8fHwxNzY1NDQxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app health"
+    },
+    {
+      "id": "od-tracker",
+      "description": "Dashboard UI for a student attendance tracking system",
+      "imageUrl": "https://images.unsplash.com/photo-1653933686802-86d21b59b03b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NjUzNzc1Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dashboard ui"
     },
     {
-      "id": "healthcare-website",
-      "description": "Clean and modern website design for a healthcare provider",
-      "imageUrl": "https://images.unsplash.com/photo-1659353888906-adb3e0041693?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoZWFsdGhjYXJlJTIwd2Vic2l0ZXxlbnwwfHx8fDE3NjU0NDA5Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "healthcare website"
+      "id": "cart-vision",
+      "description": "AI computer vision concept for retail",
+      "imageUrl": "https://picsum.photos/seed/cart-vision/600/400",
+      "imageHint": "ai retail"
     },
     {
-      "id": "travel-platform",
-      "description": "Visually appealing interface for a travel booking website",
-      "imageUrl": "https://images.unsplash.com/photo-1711360986791-fdf2bbcd830d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0cmF2ZWwlMjB3ZWJzaXRlfGVufDB8fHx8MTc2NTM1MzY5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "travel website"
+      "id": "safe-streets",
+      "description": "Mobile app showing a map with safety alerts",
+      "imageUrl": "https://images.unsplash.com/photo-1764347923709-fc48487f2486?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBtYXAlMjBzYWZldHl8ZW58MHx8fHwxNzY1NDQxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile map safety"
     }
   ]
 }
