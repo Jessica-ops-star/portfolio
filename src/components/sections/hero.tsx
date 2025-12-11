@@ -73,7 +73,7 @@ export default function Hero() {
                 height={400}
                 priority
                 className={cn(
-                  "relative aspect-square object-contain animate-float"
+                  "relative aspect-square object-cover rounded-[50px] animate-float"
                 )}
               />
             </div>

@@ -22,7 +22,7 @@ export default function About() {
                width={350}
                height={350}
                className={cn(
-                 "relative aspect-square object-contain animate-float"
+                 "relative aspect-square object-cover rounded-full animate-float"
                )}
              />
            </div>
@@ -32,7 +32,7 @@ export default function About() {
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-glow">
             About Me
           </h2>
-          <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+          <p className="mt-4 max-w-2xl text-lg text-muted-foreground whitespace-pre-wrap">
             {portfolioData.about}
           </p>
           <Card className="mt-8 flex flex-col justify-center bg-card/50 shadow-2xl card-glow hover:card-glow">

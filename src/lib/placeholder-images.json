@@ -2,15 +2,15 @@
   "placeholderImages": [
     {
       "id": "avatar-hero",
-      "description": "3D style avatar of a female computer science student with glasses",
-      "imageUrl": "https://images.unsplash.com/photo-1634715841611-67741dc71459?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHwzZCUyMGF2YXRhciUyMGxhcHRvcHxlbnwwfHx8fDE3NjU0NDE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "3d avatar laptop"
+      "description": "Professional photo of Jessica B.",
+      "imageUrl": "https://images.unsplash.com/photo-1725873932893-601931a2850a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwcG9ydHJhaXR8ZW58MHx8fHwxNzI1OTIzMzAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student portrait"
     },
     {
       "id": "avatar-about",
-      "description": "3D style avatar of a female computer science student working on a laptop",
-      "imageUrl": "https://images.unsplash.com/photo-1750535135645-005e250ff210?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHwzZCUyMGZlbWFsZSUyMGF2YXRhcnxlbnwwfHx8fDE3NjU0NDE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "3d female avatar"
+      "description": "Professional photo of Jessica B.",
+      "imageUrl": "https://images.unsplash.com/photo-1725873932893-601931a2850a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwcG9ydHJhaXR8ZW58MHx8fHwxNzI1OTIzMzAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student portrait"
     },
     {
       "id": "project-blood-connect",
