@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
       </div>
       <div className="grid w-full grid-cols-1 items-center gap-12 lg:grid-cols-2">
-        <div className="order-1 text-center lg:text-left">
+        <div className="order-2 text-center lg:order-1 lg:text-left">
            <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">Welcome to my World ✨</p>
           <h1 className="mt-4 font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
             Hi, I'm {portfolioData.name}
@@ -54,7 +54,7 @@ export default function Hero() {
             </Button>
           </div>
         </div>
-        <div className="order-2 flex justify-center lg:order-2">
+        <div className="order-1 flex justify-center lg:order-2">
           {avatarImage && (
             <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[450px] lg:h-[450px]">
               <div className="absolute -inset-8 rounded-full bg-primary/20 blur-3xl animate-pulse"></div>

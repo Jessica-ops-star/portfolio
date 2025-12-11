@@ -8,29 +8,29 @@ export const portfolioData = {
   hero: {
     intro: "A passionate CSE student who loves building meaningful tech solutions and exploring real-world problem solving through projects and hackathons.",
   },
-  about: "I’m Jessica, a motivated and hardworking Computer Science Engineering student from Chennai. I enjoy learning new technologies, solving problems, and building practical, impactful projects. With strong communication, teamwork, and adaptability, I love working on real-world ideas and continuously improving my skills. I aim to grow through hands-on experience and meaningful collaborations.",
+  about: "I’m Jessica, a motivated and hardworking Computer Science Engineering student from Chennai. I enjoy learning new technologies, solving problems, and building practical, real-world projects. With strong communication, teamwork, and adaptability, I strive to grow through hands-on experience and meaningful collaborations.",
   education: {
     degree: "B.E. Computer Science and Engineering",
     college: "Easwari Engineering College",
     duration: "2024 – 2028",
-    cgpa: "8.72 (current)",
+    cgpa: "8.72",
   },
   whatIDo: [
     {
       title: "Web Development",
-      description: "Building responsive and student-friendly platforms.",
+      description: "Creating simple and responsive web platforms.",
     },
     {
       title: "App Prototyping",
-      description: "Creating simple UI flows and feature mockups.",
+      description: "Designing intuitive UI flows for student-oriented apps.",
     },
     {
       title: "Problem Solving",
-      description: "Turning ideas into functional and efficient solutions.",
+      description: "Turning real needs into functional tech solutions.",
     },
     {
       title: "AI & Tech Exploration",
-      description: "Experimenting with Python, AI projects, and automation.",
+      description: "Experimenting with Python, automation, and AI concepts.",
     },
   ],
   skills: [
@@ -58,26 +58,26 @@ export const portfolioData = {
   projects: [
     {
       title: "Blood Connect",
-      tag: "App Design / Full Stack Concept",
-      description: "A real-time donor discovery platform using location-based search and instant alerts.",
+      tag: "App Design",
+      description: "A real-time platform that helps recipients quickly find nearby blood donors using location and instant alerts.",
       image_id: "blood-connect",
     },
     {
       title: "OD Tracker System",
-      tag: "Web Platform",
-      description: "A digital workflow system to automate on-duty approvals in academic institutions.",
+      tag: "Web Design",
+      description: "A workflow automation tool for on-duty approvals with dashboards and real-time status tracking.",
       image_id: "od-tracker",
     },
     {
       title: "CartVision AI",
       tag: "AI Project",
-      description: "An AI-based smart retail assistant that detects products without barcodes.",
+      description: "An AI-powered retail assistant that detects products without barcodes and updates carts using computer vision.",
       image_id: "cart-vision",
     },
     {
       title: "Safe Streets",
-      tag: "IoT + Mobile App",
-      description: "A smart safety jacket with SOS alerts and live location tracking.",
+      tag: "IoT + App",
+      description: "A smart safety jacket with SOS alerts and real-time location updates.",
       image_id: "safe-streets",
     },
   ],
