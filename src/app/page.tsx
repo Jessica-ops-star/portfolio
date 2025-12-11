@@ -1,27 +1,20 @@
-import Header from "@/components/header";
-import Hero from "@/components/sections/hero";
-import About from "@/components/sections/about";
-import Skills from "@/components/sections/skills";
-import Projects from "@/components/sections/projects";
-import Achievements from "@/components/sections/achievements";
-import Contact from "@/components/sections/contact";
-import Footer from "@/components/footer";
-import WhatIDo from "@/components/sections/what-i-do";
+'use client'
+import React from "react";
+import Navigation from "../components/Navigation";
+import Hero from "../components/Hero";
+import AboutSection from "@/components/AboutSection";
+import ProjectsSection from "@/components/ProjectsSection";
 
-export default function Home() {
+export default function App() {
   return (
-    <>
-      <Header />
-      <main className="flex-1">
+    <div className="app-root">
+      <Navigation />
+      <main>
         <Hero />
-        <About />
-        <WhatIDo />
-        <Projects />
-        <Skills />
-        <Achievements />
-        <Contact />
+        <AboutSection />
+        <ProjectsSection />
       </main>
-      <Footer />
-    </>
+      {/* Add other sections (About, Projects, Contact) below if needed */}
+    </div>
   );
 }
