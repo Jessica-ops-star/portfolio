@@ -60,11 +60,6 @@ export default function Hero() {
         <div className="flex justify-center items-center">
           {avatarImage && (
             <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px]">
-               <div className="absolute inset-[-10%] rounded-[60px] border-[6px] border-black/20 p-2 animate-float">
-                <div className="absolute inset-0 rounded-[50px] border-4 border-primary/30 animate-pulse -rotate-12 p-2">
-                  <div className="w-full h-full border-2 border-accent/30 rounded-[40px]"></div>
-                </div>
-               </div>
               <Image
                 src={avatarImage.imageUrl}
                 alt={avatarImage.description}
@@ -73,7 +68,7 @@ export default function Hero() {
                 height={400}
                 priority
                 className={cn(
-                  "relative aspect-square object-cover rounded-[50px] animate-float"
+                  "relative aspect-square object-cover rounded-[50px]"
                 )}
               />
             </div>

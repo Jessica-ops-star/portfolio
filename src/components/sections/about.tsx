@@ -14,7 +14,6 @@ export default function About() {
         <div className="flex justify-center items-center lg:col-span-2">
           {avatarImage && (
              <div className="relative w-[250px] h-[250px] sm:w-[350px] sm:h-[350px]">
-             <div className="absolute inset-0 rounded-full bg-primary/20 blur-3xl"></div>
              <Image
                src={avatarImage.imageUrl}
                alt={avatarImage.description}
@@ -22,7 +21,7 @@ export default function About() {
                width={350}
                height={350}
                className={cn(
-                 "relative aspect-square object-cover rounded-full animate-float"
+                 "relative aspect-square object-cover rounded-full"
                )}
              />
            </div>
