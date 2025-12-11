@@ -52,7 +52,7 @@ export const portfolioData = {
       tag: "AI Project",
       description:
         "An AI-powered retail assistant that detects products without barcodes using computer vision.",
-      longDescription: "CartVision AI is a proof-of-concept for an AI-powered retail assistant. Using a camera and computer vision models, it identifies products that don't have a scannable barcode (like fresh produce) and automatically adds them to a digital shopping cart, aiming to streamline the checkout process.",
+      longDescription: "Smart basket equipped with an inbuilt barcode scanner and Vision AI module for instant product identification\n• Vision AI automatically detects items placed inside the basket and updates product names, quantities, and prices in real time\n• A digital cart is created instantly, eliminating manual scanning at billing counters\n• Seamless checkout happens through linked phone number or unique customer ID\n• Final bill is generated automatically and sent via SMS, app, or email for complete transparency\n\nHow It Solves the Problem\n\n• No queues → Vision AI handles instant product recognition, removing the need to wait at checkout counters\n• Error-free billing → eliminates manual scanning mistakes and mismatched pricing\n• Real-time bill view → customers always know what they’re being charged for\n• Dynamic discounts → system can identify product combos and suggest offers to reduce wastage and cost\n• Faster, modern, frictionless shopping experience for all customers",
       image_id: "project-cart-vision",
       techStack: ["Python", "OpenCV", "TensorFlow", "Flask"],
       link: "#",
@@ -62,7 +62,7 @@ export const portfolioData = {
       tag: "IoT + App",
       description:
         "A smart safety jacket with SOS alerts and real-time location updates for emergencies.",
-      longDescription: "Safe Streets is an IoT project consisting of a smart safety jacket connected to a mobile app. The jacket has sensors to detect falls or manual triggers, which then send SOS alerts with real-time GPS location to pre-configured emergency contacts via the app.",
+      longDescription: "Many individuals—especially women and the elderly—feel unsafe walking through dimly lit or isolated streets. Most crimes happen before help can be reached, and existing apps offer support only after danger has already started. There is no early-warning system to detect if someone is being followed.\n\nSafeRoute provides proactive protection through a combined mobile+hardware system. The smart safety jacket includes GPS, an SOS button, and multiple sensors that detect unusual movement or signs of danger. The app gives real-time alerts, suggests safer routes, and shares the user’s live location with trusted contacts.\n\nKey Features:\n• Smart safety jacket with sensors, GPS, and SOS button\n• Real-time detection of suspicious activity\n• Safe route suggestions for night travel\n• Instant alerts and live location sharing\n• One-tap emergency SOS activation",
       image_id: "project-safe-streets",
       techStack: ["Arduino", "React Native", "Firebase", "GPS Module"],
       link: "#",
