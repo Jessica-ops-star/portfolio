@@ -23,6 +23,7 @@ import {
 } from "@/components/ui/dialog";
 import { Button } from "../ui/button";
 import { ExternalLink } from "lucide-react";
+import { ScrollArea } from "../ui/scroll-area";
 
 export default function Projects() {
   return (
@@ -87,8 +88,10 @@ export default function Projects() {
                           </div>
                         )}
                         <DialogTitle className="font-headline text-2xl">{project.title}</DialogTitle>
+                      </DialogHeader>
+                      <ScrollArea className="max-h-[60vh] pr-4">
                         <DialogDescription asChild>
-                          <div className="space-y-4">
+                          <div className="space-y-4 whitespace-pre-wrap">
                              <p className="text-base text-muted-foreground">{project.longDescription}</p>
                              <div className="flex flex-wrap gap-2">
                               {project.techStack?.map(tech => <Badge key={tech} variant="outline">{tech}</Badge>)}
@@ -103,7 +106,7 @@ export default function Projects() {
                              )}
                           </div>
                         </DialogDescription>
-                      </DialogHeader>
+                      </ScrollArea>
                     </DialogContent>
                   </Dialog>
                 </div>
