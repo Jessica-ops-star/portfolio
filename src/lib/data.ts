@@ -1,3 +1,4 @@
+
 export const portfolioData = {
   name: "Jessica B",
   role: "Computer Science Engineering Student",
@@ -8,7 +9,7 @@ export const portfolioData = {
   hero: {
     intro: "A passionate CSE student who enjoys building meaningful tech solutions and exploring real-world problem solving through projects and hackathons.",
   },
-  about: "I'm Jessica, a motivated and hardworking Computer Science Engineering student from Chennai. I enjoy learning new technologies, solving problems, and building practical, real-world projects. With strong communication, teamwork, and adaptability, I love taking on challenges and growing through hands-on experience.",
+  about: "Welcome to my portfolio. This design is built around a futuristic visual language—deep gradients, soft textures, and glowing accent colors that create an immersive digital atmosphere. The interface uses frosted-glass pill buttons, rounded edges, and smooth micro-interactions to make the entire experience feel light and effortless. Every element is placed with intention: clean typography to highlight content, minimal navigation to reduce noise, and subtle animations to guide attention naturally. The dark cosmic background adds depth, while the neon purples bring character and modern energy. A 3D avatar introduces a friendly, personal touch, making the design feel both professional and approachable. Overall, this portfolio is a blend of aesthetics and usability — visually striking, modern, and designed to help visitors understand my work quickly and enjoy the journey while exploring it.",
   education: {
     degree: "B.E. Computer Science and Engineering",
     college: "Easwari Engineering College",
