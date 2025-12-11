@@ -1,6 +1,6 @@
 import { portfolioData } from "@/lib/data";
 import { Section } from "@/components/ui/section";
-import { CheckCircle } from "lucide-react";
+import { CircleCheckBig } from "lucide-react";
 
 export default function Skills() {
   return (
@@ -20,7 +20,7 @@ export default function Skills() {
           <ul className="space-y-3 text-center">
             {portfolioData.skills.technical.map((skill, index) => (
               <li key={index} className="flex items-center justify-center gap-2 text-lg text-muted-foreground">
-                <CheckCircle className="h-5 w-5 text-primary/80"/>
+                <CircleCheckBig className="h-5 w-5 text-primary/80"/>
                 {skill}
               </li>
             ))}
@@ -31,7 +31,7 @@ export default function Skills() {
           <ul className="space-y-3 text-center">
             {portfolioData.skills.soft.map((skill, index) => (
               <li key={index} className="flex items-center justify-center gap-2 text-lg text-muted-foreground">
-                 <CheckCircle className="h-5 w-5 text-primary/80"/>
+                 <CircleCheckBig className="h-5 w-5 text-primary/80"/>
                 {skill}
               </li>
             ))}

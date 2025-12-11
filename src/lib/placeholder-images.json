@@ -3,13 +3,13 @@
     {
       "id": "avatar-hero",
       "description": "Professional photo of Jessica B.",
-      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY1ODcyMTA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://storage.googleapis.com/aifirebase/prod/images/4a982f67-a25e-4c7a-8f81-5f2597405106.png",
       "imageHint": "student portrait"
     },
     {
       "id": "avatar-about",
       "description": "Professional photo of Jessica B.",
-      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY1ODcyMTA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://storage.googleapis.com/aifirebase/prod/images/4a982f67-a25e-4c7a-8f81-5f2597405106.png",
       "imageHint": "student portrait"
     },
     {
@@ -21,19 +21,19 @@
     {
       "id": "project-od-tracker",
       "description": "Dashboard for OD Tracker System",
-      "imageUrl": "https://images.unsplash.com/photo-1635183607544-bf69187cc310?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NjUzNzc1Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1631093441315-a06b9bcbe63f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NjUzNzc1Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dashboard ui"
     },
     {
       "id": "project-cart-vision",
       "description": "AI computer vision concept for retail",
-      "imageUrl": "https://images.unsplash.com/photo-1649877508777-1554357604eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21wdXRlciUyMHZpc2lvbnxlbnwwfHx8fDE3NjU0NjIxODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb21wdXRlciUyMHZpc2lvbnxlbnwwfHx8fDE3NjU0NjIxODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "computer vision"
     },
     {
       "id": "project-safe-streets",
       "description": "IoT safety jacket app interface",
-      "imageUrl": "https://images.unsplash.com/photo-1724343025504-3afb6d67566b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpb3QlMjBhcHB8ZW58MHx8fHwxNzY1NDUwNTY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1713857297379-6fc26e70f581?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpb3QlMjBhcHB8ZW58MHx8fHwxNzY1NDUwNTY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "iot app"
     }
   ]
