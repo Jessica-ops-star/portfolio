@@ -23,7 +23,7 @@ export default function Hero() {
           <h2 className="mt-2 font-headline text-3xl font-bold text-primary sm:text-4xl">
             {portfolioData.role}
           </h2>
-          <p className="mt-6 max-w-xl text-lg text-muted-foreground lg:mx-0">
+          <p className="mt-6 max-w-xl mx-auto text-lg text-muted-foreground lg:mx-0">
             {portfolioData.hero.intro}
           </p>
 
