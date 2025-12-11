@@ -10,18 +10,18 @@ export default function Hero() {
   const avatarImage = getPlaceholderImage("avatar-hero");
 
   return (
-    <section id="home" className="relative container mx-auto flex min-h-[calc(100dvh-5rem)] items-center px-4">
+    <section id="home" className="relative container mx-auto flex min-h-[calc(100dvh-5rem)] items-center justify-center px-4 pt-20 sm:pt-24 lg:pt-0">
       <div className="absolute inset-0 -z-10 overflow-hidden">
-         <div className="absolute -left-32 -top-32 h-[300px] w-[300px] bg-pink-500/20 rounded-full blur-3xl animate-pulse"></div>
-         <div className="absolute -right-32 -bottom-32 h-[300px] w-[300px] bg-blue-500/20 rounded-full blur-3xl animate-pulse"></div>
+         <div className="absolute -left-32 -top-32 h-[300px] w-[300px] bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
+         <div className="absolute -right-32 -bottom-32 h-[300px] w-[300px] bg-accent/20 rounded-full blur-3xl animate-pulse"></div>
       </div>
       <div className="grid w-full grid-cols-1 items-center gap-12 lg:grid-cols-2">
         <div className="text-center lg:text-left">
-           <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">WELCOME TO MY WORLD ✨</p>
+           <p className="text-sm font-medium uppercase tracking-widest text-primary/80">WELCOME TO MY WORLD ✨</p>
           <h1 className="mt-4 font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-glow">
-            Hi, I'm {portfolioData.name}
+            Hi, I'm <span className="text-primary">{portfolioData.name}</span>
           </h1>
-          <h2 className="mt-2 font-headline text-3xl font-bold text-primary sm:text-4xl">
+          <h2 className="mt-2 font-headline text-2xl font-bold text-muted-foreground sm:text-3xl">
             {portfolioData.role}
           </h2>
           <p className="mt-6 max-w-xl mx-auto text-lg text-muted-foreground lg:mx-0">
@@ -55,12 +55,14 @@ export default function Hero() {
             </Button>
           </div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center items-center">
           {avatarImage && (
             <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[450px] lg:h-[450px]">
-               <div className="absolute inset-0 border-4 border-primary/50 rounded-[60px] animate-pulse -rotate-12 p-2">
-                 <div className="w-full h-full border-2 border-accent/50 rounded-[50px]"></div>
-              </div>
+               <div className="absolute inset-[-10%] rounded-[60px] border-[6px] border-black/20 p-2 animate-float">
+                <div className="absolute inset-0 rounded-[50px] border-4 border-primary/30 animate-pulse -rotate-12 p-2">
+                  <div className="w-full h-full border-2 border-accent/30 rounded-[40px]"></div>
+                </div>
+               </div>
               <Image
                 src={avatarImage.imageUrl}
                 alt={avatarImage.description}

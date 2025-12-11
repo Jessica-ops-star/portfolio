@@ -3,7 +3,7 @@ export const portfolioData = {
   role: "Computer Science Engineering Student",
   hero: {
     intro:
-      "A passionate CSE student who enjoys building meaningful tech solutions and exploring real-world problem solving through projects and hackathons.",
+      "A passionate CSE student who loves building meaningful tech solutions and exploring real-world problem solving through projects and hackathons.",
   },
   about:
     "I'm Jessica, a motivated and hardworking Computer Science Engineering student from Chennai. I enjoy learning new technologies, solving problems, and building practical, real-world projects. With strong communication, teamwork, and adaptability, I love taking on challenges and growing through hands-on experience.",
@@ -68,23 +68,7 @@ export const portfolioData = {
   skills: [
     {
       category: "Programming",
-      items: ["Java", "Python", "C"],
-    },
-    {
-      category: "Database",
-      items: ["MySQL"],
-    },
-    {
-      category: "Soft Skills",
-      items: ["Communication", "Teamwork", "Problem Solving"],
-    },
-    {
-      category: "Languages",
-      items: ["English", "Tamil", "Japanese (N4)"],
-    },
-     {
-      category: "Certificates",
-      items: ["Python for Data Science (NPTEL – Silver + Elite)", "Ethical Hacking (NPTEL – Elite)", "Core Java – Infosys Springboard", "JLPT N5"],
+      items: ["Java", "Python", "C", "MySQL", "Communication", "Teamwork", "Problem Solving", "English", "Tamil", "Japanese (N4)"],
     },
   ],
   achievements: [
@@ -98,7 +82,7 @@ export const portfolioData = {
     title: "Let’s Create Something Amazing Together ✨",
   },
   socials: {
-    linkedin: "https://linkedin.com/in/jessicab",
-    email: "jessica.b@example.com",
+    linkedin: "https://linkedin.com/in/jessica-b-8a18a2334",
+    email: "jessicabenno28@gmail.com",
   },
 };

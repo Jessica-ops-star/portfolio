@@ -9,12 +9,12 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        primary: "bg-gradient-to-r from-[#7B4EFF] to-[#9A6BFF] text-primary-foreground button-glow hover:from-[#9A6BFF] hover:to-[#7B4EFF]",
+        primary: "bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--accent))] text-primary-foreground button-glow hover:from-[hsl(var(--accent))] hover:to-[hsl(var(--primary))]",
         secondary: "bg-foreground text-background font-bold hover:bg-foreground/90",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
-          "border border-dashed border-foreground/30 bg-transparent hover:bg-foreground/5 hover:border-foreground/50",
+          "border border-dashed border-foreground/20 bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-foreground/40",
         ghost: "hover:bg-foreground/10 hover:text-foreground",
         link: "text-primary underline-offset-4 hover:underline",
       },

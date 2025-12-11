@@ -3,14 +3,14 @@
     {
       "id": "avatar-hero",
       "description": "3D style avatar of a female computer science student with glasses",
-      "imageUrl": "https://images.unsplash.com/photo-1750535135645-005e250ff210?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHwzZCUyMGZlbWFsZSUyMGF2YXRhcnxlbnwwfHx8fDE3NjU0NDE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "3d female avatar"
+      "imageUrl": "https://images.unsplash.com/photo-1634715841611-67741dc71459?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHwzZCUyMGF2YXRhciUyMGxhcHRvcHxlbnwwfHx8fDE3NjU0NDE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "3d avatar laptop"
     },
     {
       "id": "avatar-about",
       "description": "3D style avatar of a female computer science student working on a laptop",
-      "imageUrl": "https://images.unsplash.com/photo-1634715841611-67741dc71459?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHwzZCUyMGF2YXRhciUyMGxhcHRvcHxlbnwwfHx8fDE3NjU0NDE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "3d avatar laptop"
+      "imageUrl": "https://images.unsplash.com/photo-1750535135645-005e250ff210?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHwzZCUyMGZlbWFsZSUyMGF2YXRhcnxlbnwwfHx8fDE3NjU0NDE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "3d female avatar"
     },
     {
       "id": "project-blood-connect",
@@ -27,8 +27,8 @@
     {
       "id": "project-cart-vision",
       "description": "AI computer vision concept for retail",
-      "imageUrl": "https://picsum.photos/seed/p3/400/400",
-      "imageHint": "ai retail"
+      "imageUrl": "https://images.unsplash.com/photo-1581092921446-54a103c15392?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMGNvbXB1dGVyJTIwdmlzaW9ufGVufDB8fHx8MTc3MDQ3NTE2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai computer vision"
     },
     {
       "id": "project-safe-streets",
