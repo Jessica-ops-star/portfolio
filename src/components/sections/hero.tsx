@@ -53,7 +53,7 @@ export default function Hero() {
         </div>
         <div className="flex justify-center items-center">
           {avatarImage && (
-            <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px] bg-white p-2 rounded-[56px] shadow-lg">
+            <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px]">
               <Image
                 src={avatarImage.imageUrl}
                 alt={avatarImage.description}
@@ -62,7 +62,7 @@ export default function Hero() {
                 height={400}
                 priority
                 className={cn(
-                  "relative aspect-square object-cover rounded-[50px]"
+                  "relative aspect-square object-cover rounded-[50px] shadow-lg"
                 )}
               />
             </div>
