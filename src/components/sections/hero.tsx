@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="text-center lg:text-left">
            <p className="text-sm font-medium uppercase tracking-widest text-primary/80">WELCOME TO MY WORLD ✨</p>
           <h1 className="mt-4 font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-glow">
-            Hi, I'm <span className="text-primary">{portfolioData.name}</span>
+            <span className="text-primary">{portfolioData.name}</span>
           </h1>
           <h2 className="mt-2 font-headline text-2xl font-bold text-muted-foreground sm:text-3xl">
             {portfolioData.role}
