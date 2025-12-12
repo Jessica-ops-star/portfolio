@@ -53,7 +53,7 @@ export default function Hero() {
         </div>
         <div className="flex justify-center items-center">
           {avatarImage && (
-            <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px]">
+            <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px] bg-white p-2 rounded-[56px] shadow-lg">
               <Image
                 src={avatarImage.imageUrl}
                 alt={avatarImage.description}
