@@ -17,22 +17,22 @@ export default function Skills() {
       <div className="mt-12 grid grid-cols-1 gap-12 md:grid-cols-2">
         <div>
           <h3 className="text-center font-headline text-2xl font-semibold text-primary mb-6">Technical Skills</h3>
-          <ul className="space-y-3 text-center">
+          <ul className="mx-auto max-w-xs space-y-3">
             {portfolioData.skills.technical.map((skill, index) => (
-              <li key={index} className="flex items-center justify-center gap-2 text-lg text-muted-foreground">
-                <CircleCheckBig className="h-5 w-5 text-primary/80"/>
-                {skill}
+              <li key={index} className="flex items-center gap-2 text-lg text-muted-foreground">
+                <CircleCheckBig className="h-5 w-5 shrink-0 text-primary/80"/>
+                <span>{skill}</span>
               </li>
             ))}
           </ul>
         </div>
         <div>
           <h3 className="text-center font-headline text-2xl font-semibold text-primary mb-6">Soft Skills</h3>
-          <ul className="space-y-3 text-center">
+          <ul className="mx-auto max-w-xs space-y-3">
             {portfolioData.skills.soft.map((skill, index) => (
-              <li key={index} className="flex items-center justify-center gap-2 text-lg text-muted-foreground">
-                 <CircleCheckBig className="h-5 w-5 text-primary/80"/>
-                {skill}
+              <li key={index} className="flex items-center gap-2 text-lg text-muted-foreground">
+                 <CircleCheckBig className="h-5 w-5 shrink-0 text-primary/80"/>
+                 <span>{skill}</span>
               </li>
             ))}
           </ul>
