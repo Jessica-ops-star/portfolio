@@ -69,10 +69,16 @@ export const portfolioData = {
     },
   ],
   education: {
-    degree: "B.E. Computer Science and Engineering",
-    college: "Easwari Engineering College",
-    duration: "2024 – 2028",
-    cgpa: "8.72",
+    schooling: {
+      school: "St. Dominic's Anglo Indian Higher Secondary School, Chennai",
+      x_percentage: "94.2%",
+      xii_percentage: "89.33%",
+    },
+    higherEducation: {
+      degree: "B.E. Computer Science and Engineering",
+      college: "Easwari Engineering College, Chennai",
+      cgpa: "8.72 (current)",
+    },
   },
   skills: {
     technical: ["Java", "Python", "C", "MySQL"],

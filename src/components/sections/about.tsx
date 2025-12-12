@@ -1,9 +1,7 @@
 import Image from "next/image";
 import { portfolioData } from "@/lib/data";
 import { getPlaceholderImage } from "@/lib/placeholder-images";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Section } from "@/components/ui/section";
-import { GraduationCap } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export default function About() {
@@ -34,20 +32,6 @@ export default function About() {
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground whitespace-pre-wrap">
             {portfolioData.about}
           </p>
-          <Card className="mt-8 flex flex-col justify-center bg-card/50 shadow-2xl card-glow hover:card-glow">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-3">
-                <GraduationCap className="h-8 w-8 text-primary" />
-                <span className="font-headline text-2xl">Education</span>
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <h3 className="font-semibold text-lg">{portfolioData.education.degree}</h3>
-              <p className="text-muted-foreground">{portfolioData.education.college}</p>
-              <p className="text-sm text-muted-foreground">{portfolioData.education.duration}</p>
-              <p className="mt-2 text-base">CGPA: {portfolioData.education.cgpa}</p>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </Section>
