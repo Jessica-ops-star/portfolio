@@ -96,7 +96,7 @@ export default function Projects() {
                              <div className="flex flex-wrap gap-2">
                               {project.techStack?.map(tech => <Badge key={tech} variant="outline">{tech}</Badge>)}
                              </div>
-                             {project.link && (
+                             {project.link && project.link !== "#" && (
                               <Button asChild variant="outline">
                                 <a href={project.link} target="_blank" rel="noopener noreferrer">
                                   <ExternalLink className="mr-2 h-4 w-4"/>
@@ -117,11 +117,6 @@ export default function Projects() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-      <div className="mt-8 text-center">
-        <Button asChild variant="outline">
-            <a href="#">See All</a>
-        </Button>
-      </div>
     </Section>
   );
 }
