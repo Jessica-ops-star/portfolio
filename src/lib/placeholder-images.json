@@ -14,27 +14,27 @@
     },
     {
       "id": "project-blood-connect",
-      "description": "App interface for Blood Connect, a donor finding app",
-      "imageUrl": "https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcHAlMjBpbnRlcmZhY2V8ZW58MHx8fHwxNzY1Mzk4NDc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "app interface"
+      "description": "A smartphone screen showing a map with location pins representing blood donors.",
+      "imageUrl": "https://images.unsplash.com/photo-1593941707882-65c68450a8d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXAlMjBhcHAlMjBkb25vcnN8ZW58MHx8fHwxNzE3NjE5MjU4fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "map app"
     },
     {
       "id": "project-od-tracker",
-      "description": "Dashboard for OD Tracker System",
-      "imageUrl": "https://images.unsplash.com/photo-1631093441315-a06b9bcbe63f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NjUzNzc1Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "dashboard ui"
+      "description": "A clean and modern dashboard UI for a tracking system.",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmQlMjB0cmFja2luZ3xlbnwwfHx8fDE3MTc2MTkyODl8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "dashboard tracking"
     },
     {
       "id": "project-cart-vision",
-      "description": "AI computer vision concept for retail",
-      "imageUrl": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21wdXRlciUyMHZpc2lvbnxlbnwwfHx8fDE3NjU0NjIxODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "computer vision"
+      "description": "A futuristic shopping cart with a glowing blue light, representing AI technology.",
+      "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbWFydCUyMHNob3BwaW5nJTIwY2FydHxlbnwwfHx8fDE3MTc2MTkzMTd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "smart shopping"
     },
     {
       "id": "project-safe-streets",
-      "description": "IoT safety jacket app interface",
-      "imageUrl": "https://images.unsplash.com/photo-1713857297379-6fc26e70f581?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpb3QlMjBhcHB8ZW58MHx8fHwxNzY1NDUwNTY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "iot app"
+      "description": "A person wearing a jacket with reflective, glowing strips, representing safety at night.",
+      "imageUrl": "https://images.unsplash.com/photo-1528255915628-1e9b9322a4e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYWZldHklMjBqYWNrZXQlMjBuaWdodHxlbnwwfHx8fDE3MTc2MTkzNDJ8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "safety jacket"
     }
   ]
 }
