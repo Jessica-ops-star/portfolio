@@ -5,7 +5,7 @@ import Link from "next/link";
 import { portfolioData } from "@/lib/data";
 import { getPlaceholderImage } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
-import { Linkedin, Mail, FileDown, ChevronDown } from "lucide-react";
+import { Linkedin, Mail, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export default function Hero() {
@@ -33,12 +33,6 @@ export default function Hero() {
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start">
             <Button asChild size="lg" variant="primary">
               <Link href="#projects">My Projects</Link>
-            </Button>
-            <Button asChild variant="outline" size="lg">
-              <a href="https://drive.google.com/file/d/1JWJSL4Jv37qr0mOKGatiKrOOf_XiW5Wg/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                <FileDown className="mr-2 h-4 w-4" />
-                Download CV
-              </a>
             </Button>
           </div>
 
