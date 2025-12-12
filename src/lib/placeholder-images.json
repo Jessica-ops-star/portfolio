@@ -3,14 +3,14 @@
     {
       "id": "avatar-hero",
       "description": "Professional photo of Jessica B.",
-      "imageUrl": "https://storage.googleapis.com/aifirebase/prod/images/4a982f67-a25e-4c7a-8f81-5f2597405106.png",
-      "imageHint": "student portrait"
+      "imageUrl": "https://storage.googleapis.com/aifirebase/prod/images/7e0b5711-b054-44b2-a4f6-7b243818e950.png",
+      "imageHint": "woman portrait"
     },
     {
       "id": "avatar-about",
       "description": "Professional photo of Jessica B.",
-      "imageUrl": "https://storage.googleapis.com/aifirebase/prod/images/4a982f67-a25e-4c7a-8f81-5f2597405106.png",
-      "imageHint": "student portrait"
+      "imageUrl": "https://storage.googleapis.com/aifirebase/prod/images/7e0b5711-b054-44b2-a4f6-7b243818e950.png",
+      "imageHint": "woman portrait"
     },
     {
       "id": "project-blood-connect",
