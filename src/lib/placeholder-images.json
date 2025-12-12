@@ -14,9 +14,9 @@
     },
     {
       "id": "project-blood-connect",
-      "description": "A smartphone screen showing a map with location pins representing blood donors.",
-      "imageUrl": "https://images.unsplash.com/photo-1593941707882-65c68450a8d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXAlMjBhcHAlMjBkb25vcnN8ZW58MHx8fHwxNzE3NjE5MjU4fDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "imageHint": "map app"
+      "description": "An image representing blood donation, with a blood bag and a heart.",
+      "imageUrl": "https://images.unsplash.com/photo-1524726240263-cf45c0471b5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibG9vZCUyMGRvbmF0aW9ufGVufDB8fHx8MTcxNzYxOTk3Mnww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "blood donation"
     },
     {
       "id": "project-od-tracker",
@@ -26,15 +26,15 @@
     },
     {
       "id": "project-cart-vision",
-      "description": "A futuristic shopping cart with a glowing blue light, representing AI technology.",
-      "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbWFydCUyMHNob3BwaW5nJTIwY2FydHxlbnwwfHx8fDE3MTc2MTkzMTd8MA&ixlib=rb-4.0.3&q=80&w=1080",
-      "imageHint": "smart shopping"
+      "description": "A close-up of a modern shopping cart.",
+      "imageUrl": "https://images.unsplash.com/photo-1528357136257-0c25517ac637?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzaG9wcGluZyUyMGNhcnR8ZW58MHx8fHwxNzE3NjE5OTQ0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "shopping cart"
     },
     {
       "id": "project-safe-streets",
-      "description": "A person wearing a jacket with reflective, glowing strips, representing safety at night.",
-      "imageUrl": "https://images.unsplash.com/photo-1528255915628-1e9b9322a4e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYWZldHklMjBqYWNrZXQlMjBuaWdodHxlbnwwfHx8fDE3MTc2MTkzNDJ8MA&ixlib=rb-4.0.3&q=80&w=1080",
-      "imageHint": "safety jacket"
+      "description": "A security camera mounted on a wall, representing safety and surveillance.",
+      "imageUrl": "https://images.unsplash.com/photo-1587832239668-397426e64016?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZWN1cml0eSUyMGNhbWVyYXxlbnwwfHx8fDE3MTc2MTk4ODN8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "security camera"
     }
   ]
 }
