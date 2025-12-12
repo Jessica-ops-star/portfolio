@@ -15,7 +15,7 @@
     {
       "id": "project-blood-connect",
       "description": "An image representing blood donation, with a blood bag and a heart.",
-      "imageUrl": "https://images.unsplash.com/photo-1524726240263-cf45c0471b5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibG9vZCUyMGRvbmF0aW9ufGVufDB8fHx8MTcxNzYxOTk3Mnww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1602919313459-75a229ef4124?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "blood donation"
     },
     {
@@ -27,13 +27,13 @@
     {
       "id": "project-cart-vision",
       "description": "A close-up of a modern shopping cart.",
-      "imageUrl": "https://images.unsplash.com/photo-1528357136257-0c25517ac637?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzaG9wcGluZyUyMGNhcnR8ZW58MHx8fHwxNzE3NjE5OTQ0fDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "imageHint": "shopping cart"
+      "imageUrl": "https://images.unsplash.com/photo-1583913076770-a292021a6f17?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "shopping trolley"
     },
     {
       "id": "project-safe-streets",
       "description": "A security camera mounted on a wall, representing safety and surveillance.",
-      "imageUrl": "https://images.unsplash.com/photo-1587832239668-397426e64016?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZWN1cml0eSUyMGNhbWVyYXxlbnwwfHx8fDE3MTc2MTk4ODN8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1526378805985-945f6138090f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "security camera"
     }
   ]
