@@ -91,6 +91,32 @@ export const portfolioData = {
     "INNOTHON'25",
     "VisAIon Hacks'25",
   ],
+  courses: [
+    {
+      name: "Core Java Programming Revisited-Infosys Springboard",
+      imageId: "cert-core-java",
+    },
+    {
+      name: "Introduction to Cyber Security",
+      imageId: "cert-cyber-security",
+    },
+    {
+      name: "Introduction to IOT and Digital Transformation",
+      imageId: "cert-iot",
+    },
+    {
+      name: "Introduction to Modern AI",
+      imageId: "cert-modern-ai",
+    },
+    {
+      name: "Python Essentials 1",
+      imageId: "cert-python-essentials",
+    },
+    {
+      name: "Security and Connectivity Support",
+      imageId: "cert-security-support",
+    },
+  ],
   certifications: [
     {
       name: "JLPT N5 cleared",
@@ -103,10 +129,6 @@ export const portfolioData = {
     {
       name: "Ethical hacking (elite)-NPTEL",
       imageId: "cert-ethical-hacking",
-    },
-    {
-      name: "Core Java Programming Revisited-Infosys Springboard",
-      imageId: "cert-core-java",
     },
   ],
   internship: {
