@@ -92,10 +92,22 @@ export const portfolioData = {
     "VisAIon Hacks'25",
   ],
   certifications: [
-    "JLPT N5 cleared",
-    "Python for data science (silver + elite)-NPTEL",
-    "Ethical hacking (elite)-NPTEL",
-    "Core Java Programming Revisited-Infosys Springboard",
+    {
+      name: "JLPT N5 cleared",
+      imageId: "cert-jlpt-n5",
+    },
+    {
+      name: "Python for data science (silver + elite)-NPTEL",
+      imageId: "cert-python-datasci",
+    },
+    {
+      name: "Ethical hacking (elite)-NPTEL",
+      imageId: "cert-ethical-hacking",
+    },
+    {
+      name: "Core Java Programming Revisited-Infosys Springboard",
+      imageId: "cert-core-java",
+    },
   ],
   internship: {
       title: "1M1M AI for Sustainability",

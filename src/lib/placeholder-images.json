@@ -15,7 +15,7 @@
     {
       "id": "project-blood-connect",
       "description": "An image representing blood donation, with a blood bag and a heart.",
-      "imageUrl": "https://images.unsplash.com/photo-1584452964155-ef139340f0db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxibG9vZCUyMGRvbmF0aW9ufGVufDB8fHx8MTc2NTQ2NjY4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1542884841-9f546e727bca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Ymxvb2QlMjBkb25hdGlvbnxlbnwwfHx8fDE3NjYzODI4NDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "blood donation"
     },
     {
@@ -27,14 +27,38 @@
     {
       "id": "project-cart-vision",
       "description": "A close-up of a modern shopping cart.",
-      "imageUrl": "https://images.unsplash.com/photo-1601598851547-4302969d0614?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaG9wcGluZyUyMHRyb2xsZXl8ZW58MHx8fHwxNzY1NTQyMDAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1600414428654-bdee5b7af614?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzaG9wcGluZyUyMHRyb2xsZXl8ZW58MHx8fHwxNzY2MzgyODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "shopping trolley"
     },
     {
       "id": "project-safe-streets",
       "description": "A security camera mounted on a wall, representing safety and surveillance.",
-      "imageUrl": "https://images.unsplash.com/photo-1618482914248-29272d021005?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzZWN1cml0eSUyMGNhbWVyYXxlbnwwfHx8fDE3NjU0MzYyMjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1520697830682-bbb6e85e2b0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzZWN1cml0eSUyMGNhbWVyYXxlbnwwfHx8fDE3NjYzMDkyMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "security camera"
+    },
+    {
+      "id": "cert-jlpt-n5",
+      "description": "Certificate for JLPT N5",
+      "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert-python-datasci",
+      "description": "Certificate for Python for Data Science",
+      "imageUrl": "https://images.unsplash.com/photo-1638636241638-aef5120c5153?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert-ethical-hacking",
+      "description": "Certificate for Ethical Hacking",
+      "imageUrl": "https://images.unsplash.com/photo-1742415888265-d5044039d8e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert-core-java",
+      "description": "Certificate for Core Java Programming",
+      "imageUrl": "https://images.unsplash.com/photo-1766104796677-2ac8fe57b47c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
     }
   ]
 }
