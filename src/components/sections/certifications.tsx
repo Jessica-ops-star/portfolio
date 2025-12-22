@@ -54,7 +54,7 @@ const CertificateButton = ({ cert, icon: Icon }: { cert: CertificateItem, icon: 
 export default function Certifications() {
   return (
     <Section id="certifications" className="container mx-auto px-4">
-      <div className="grid grid-cols-1 gap-16 lg:grid-cols-2">
+      <div className="flex flex-col gap-16">
         
         <div className="text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-glow">
