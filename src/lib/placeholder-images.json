@@ -15,7 +15,7 @@
     {
       "id": "project-blood-connect",
       "description": "An image representing blood donation, with a blood bag and a heart.",
-      "imageUrl": "https://images.unsplash.com/photo-1615461065929-4f8ffed6ca40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxibG9vZCUyMGRvbmF0aW9ufGVufDB8fHx8MTc2NjM4Mjg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1697192156499-d85cfe1452c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxibG9vZCUyMGRvbmF0aW9ufGVufDB8fHx8MTc2NjM4Mjg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "blood donation"
     },
     {
@@ -27,67 +27,67 @@
     {
       "id": "project-cart-vision",
       "description": "A close-up of a modern shopping cart.",
-      "imageUrl": "https://images.unsplash.com/photo-1557821552-17105176677c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaG9wcGluZyUyMHRyb2xsZXl8ZW58MHx8fHwxNzY2MzgyODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1617817236914-795f5a551eb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2hvcHBpbmclMjB0cm9sbGV5fGVufDB8fHx8MTc2NjM4Mjg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "shopping trolley"
     },
     {
       "id": "project-safe-streets",
       "description": "A security camera mounted on a wall, representing safety and surveillance.",
-      "imageUrl": "https://images.unsplash.com/photo-1618482914248-29272d021005?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzZWN1cml0eSUyMGNhbWVyYXxlbnwwfHx8fDE3NjYzMDkyMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1528312635006-8ea0bc49ec63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzZWN1cml0eSUyMGNhbWVyYXxlbnwwfHx8fDE3NjYzMDkyMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "security camera"
     },
     {
       "id": "cert-jlpt-n5",
       "description": "Certificate for JLPT N5",
-      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-python-datasci",
       "description": "Certificate for Python for Data Science",
-      "imageUrl": "https://images.unsplash.com/photo-1657114162943-04988ff671d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1761671613933-159512988cb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-ethical-hacking",
       "description": "Certificate for Ethical Hacking",
-      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://image2url.com/images/1766383264483-06f31d99-6ecc-466d-874e-f49ad4bc7ce4.png",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-core-java",
       "description": "Certificate for Core Java Programming",
-      "imageUrl": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1533545587081-bbdccaab0c33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2VydGlmaWNhdGUlMjBkb2N1bWVudHxlbnwwfHx8fDE3NjYzMTMwMzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-cyber-security",
       "description": "Certificate for Introduction to Cyber Security",
-      "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-iot",
       "description": "Certificate for Introduction to IOT and Digital Transformation",
-      "imageUrl": "https://images.unsplash.com/photo-1620887110499-d54ecf17cefb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1742415888265-d5044039d8e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-modern-ai",
       "description": "Certificate for Introduction to Modern AI",
-      "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1742415888265-d5044039d8e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-python-essentials",
       "description": "Certificate for Python Essentials 1",
-      "imageUrl": "https://images.unsplash.com/photo-1657114162943-04988ff671d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-security-support",
       "description": "Certificate for Security and Connectivity Support",
-      "imageUrl": "https://images.unsplash.com/photo-1533545587081-bbdccaab0c33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2VydGlmaWNhdGUlMjBkb2N1bWVudHxlbnwwfHx8fDE3NjYzMTMwMzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     }
   ]
