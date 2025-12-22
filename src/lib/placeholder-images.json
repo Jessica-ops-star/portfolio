@@ -15,7 +15,7 @@
     {
       "id": "project-blood-connect",
       "description": "An image representing blood donation, with a blood bag and a heart.",
-      "imageUrl": "https://images.unsplash.com/photo-1697192156499-d85cfe1452c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxibG9vZCUyMGRvbmF0aW9ufGVufDB8fHx8MTc2NjM4Mjg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1542884841-9f546e727bca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Ymxvb2QlMjBkb25hdGlvbnxlbnwwfHx8fDE3NjYzODI4NDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "blood donation"
     },
     {
@@ -27,7 +27,7 @@
     {
       "id": "project-cart-vision",
       "description": "A close-up of a modern shopping cart.",
-      "imageUrl": "https://images.unsplash.com/photo-1617817236914-795f5a551eb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2hvcHBpbmclMjB0cm9sbGV5fGVufDB8fHx8MTc2NjM4Mjg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1557821552-17105176677c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaG9wcGluZyUyMHRyb2xsZXl8ZW58MHx8fHwxNzY2MzgyODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "shopping trolley"
     },
     {
@@ -45,7 +45,7 @@
     {
       "id": "cert-python-datasci",
       "description": "Certificate for Python for Data Science",
-      "imageUrl": "https://images.unsplash.com/photo-1761671613933-159512988cb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://image2url.com/images/1766383391457-dd4cae52-8c2c-440b-8809-de6d80bfea1f.png",
       "imageHint": "certificate document"
     },
     {
