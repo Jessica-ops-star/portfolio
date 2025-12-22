@@ -1,13 +1,12 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { useEffect } from "react";
+import emailjs from "@emailjs/browser";
 import { useToast } from "@/hooks/use-toast";
 
-import { submitContactForm } from "@/app/actions";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -20,24 +19,8 @@ const formSchema = z.object({
   message: z.string().min(10, { message: "Message must be at least 10 characters." }),
 });
 
-const initialState = {
-  message: "",
-  success: false,
-  errors: null,
-};
-
-function SubmitButton() {
-  const { pending } = useFormStatus();
-  return (
-    <Button type="submit" disabled={pending} className="w-full sm:w-auto" variant="primary">
-      {pending ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
-      Send Message
-    </Button>
-  );
-}
-
 export function ContactForm() {
-  const [state, formAction] = useFormState(submitContactForm, initialState);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
   const form = useForm<z.infer<typeof formSchema>>({
@@ -49,27 +32,44 @@ export function ContactForm() {
     },
   });
 
-  useEffect(() => {
-    if (state.message) {
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsSubmitting(true);
+    
+    const templateParams = {
+      name: values.name,
+      email: values.email,
+      message: values.message,
+      title: "Portfolio Contact"
+    };
+
+    try {
+      await emailjs.send(
+        "service_busoofe",
+        "template_puspag2",
+        templateParams,
+        "qddsC5aRYGKwvfcnX"
+      );
+
       toast({
-        title: state.success ? "Success!" : "Uh oh!",
-        description: state.message,
-        variant: state.success ? "default" : "destructive",
+        title: "Success!",
+        description: "Thank you for your message! I'll get back to you soon.",
       });
-    }
-    if (state.success) {
       form.reset();
+    } catch (error) {
+      console.error("EmailJS Error:", error);
+      toast({
+        title: "Uh oh! Something went wrong.",
+        description: "Could not send your message. Please try again later.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
     }
-    if (state.errors) {
-      if (state.errors.name) form.setError("name", { message: state.errors.name });
-      if (state.errors.email) form.setError("email", { message: state.errors.email });
-      if (state.errors.message) form.setError("message", { message: state.errors.message });
-    }
-  }, [state, toast, form]);
+  }
 
   return (
     <Form {...form}>
-      <form action={formAction} className="space-y-6">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           <FormField
             control={form.control}
@@ -111,7 +111,10 @@ export function ContactForm() {
             </FormItem>
           )}
         />
-        <SubmitButton />
+        <Button type="submit" disabled={isSubmitting} className="w-full sm:w-auto" variant="primary">
+          {isSubmitting ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
+          Send Message
+        </Button>
       </form>
     </Form>
   );
