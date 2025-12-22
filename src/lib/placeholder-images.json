@@ -15,7 +15,7 @@
     {
       "id": "project-blood-connect",
       "description": "An image representing blood donation, with a blood bag and a heart.",
-      "imageUrl": "https://images.unsplash.com/photo-1542884841-9f546e727bca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Ymxvb2QlMjBkb25hdGlvbnxlbnwwfHx8fDE3NjYzODI4NDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1536856136534-bb679c52a9aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxibG9vZCUyMGRvbmF0aW9ufGVufDB8fHx8MTc2NjM4Mjg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "blood donation"
     },
     {
@@ -27,13 +27,13 @@
     {
       "id": "project-cart-vision",
       "description": "A close-up of a modern shopping cart.",
-      "imageUrl": "https://images.unsplash.com/photo-1549187805-6079facea88d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzaG9wcGluZyUyMHRyb2xsZXl8ZW58MHx8fHwxNzY2MzgyODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1574142233063-dd3cde4fed27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaG9wcGluZyUyMHRyb2xsZXl8ZW58MHx8fHwxNzY2MzgyODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "shopping trolley"
     },
     {
       "id": "project-safe-streets",
       "description": "A security camera mounted on a wall, representing safety and surveillance.",
-      "imageUrl": "https://images.unsplash.com/photo-1585206031650-9e9a7c87dcfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzZWN1cml0eSUyMGNhbWVyYXxlbnwwfHx8fDE3NjYzMDkyMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1617897711385-df9c86b7dfe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2VjdXJpdHklMjBjYW1lcmF8ZW58MHx8fHwxNzY2MzA5MjM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "security camera"
     },
     {
@@ -57,37 +57,37 @@
     {
       "id": "cert-core-java",
       "description": "Certificate for Core Java Programming",
-      "imageUrl": "https://images.unsplash.com/photo-1533545587081-bbdccaab0c33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2VydGlmaWNhdGUlMjBkb2N1bWVudHxlbnwwfHx8fDE3NjYzMTMwMzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://image2url.com/images/1766383681201-f5242221-db8b-4e4c-b5a4-5b3bdc0b63b8.png",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-cyber-security",
       "description": "Certificate for Introduction to Cyber Security",
-      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://image2url.com/images/1766383743127-9a807930-aa54-484f-959d-22cfb1319e77.png",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-iot",
       "description": "Certificate for Introduction to IOT and Digital Transformation",
-      "imageUrl": "https://images.unsplash.com/photo-1742415888265-d5044039d8e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://image2url.com/images/1766383789595-99cb2753-83c6-4a0f-8930-56a799075de3.png",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-modern-ai",
       "description": "Certificate for Introduction to Modern AI",
-      "imageUrl": "https://images.unsplash.com/photo-1742415888265-d5044039d8e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://image2url.com/images/1766383829649-a010004c-ce20-4abc-9a46-99579ff196a9.png",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-python-essentials",
       "description": "Certificate for Python Essentials 1",
-      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://image2url.com/images/1766383869674-1c53a777-6159-41cb-9671-c3b256840e68.png",
       "imageHint": "certificate document"
     },
     {
       "id": "cert-security-support",
       "description": "Certificate for Security and Connectivity Support",
-      "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NjMxMzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://image2url.com/images/1766383902607-aa27defa-e5bb-4ad6-b51d-a5f4499ce881.png",
       "imageHint": "certificate document"
     }
   ]
