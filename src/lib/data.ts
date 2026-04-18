@@ -77,7 +77,7 @@ export const portfolioData = {
     higherEducation: {
       degree: "B.E. Computer Science and Engineering",
       college: "Easwari Engineering College, Chennai",
-      cgpa: "8.72 (current)",
+      cgpa: "8.69 (current)",
     },
   },
   skills: {

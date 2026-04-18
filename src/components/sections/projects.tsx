@@ -24,6 +24,25 @@ import {
 import { Button } from "../ui/button";
 import { ExternalLink } from "lucide-react";
 import { ScrollArea } from "../ui/scroll-area";
+import { motion } from "framer-motion";
+
+const sectionVariants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: "easeOut", staggerChildren: 0.15 }
+  }
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: "easeOut" }
+  }
+};
 
 export default function Projects() {
   return (
@@ -37,22 +56,28 @@ export default function Projects() {
         </p>
       </div>
 
-      <Carousel
-        opts={{
-          align: "start",
-          loop: true,
-        }}
-        className="mx-auto mt-12 w-full max-w-sm md:max-w-2xl lg:max-w-4xl"
+      <motion.div
+        variants={sectionVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
       >
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+          }}
+          className="mx-auto mt-12 w-full max-w-sm md:max-w-2xl lg:max-w-4xl"
+        >
         <CarouselContent>
           {portfolioData.projects.map((project, index) => {
             const projectImage = getPlaceholderImage(project.image_id);
             return (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                <div className="p-1">
+                <motion.div variants={itemVariants} className="p-1 h-full">
                   <Dialog>
                     <DialogTrigger asChild>
-                      <Card className="group h-full cursor-pointer overflow-hidden bg-card/50 backdrop-blur-sm border-border transition-all duration-300 hover:border-primary/50 hover:shadow-2xl card-glow hover:card-glow">
+                      <Card className="group h-full flex flex-col cursor-pointer overflow-hidden bg-card/50 backdrop-blur-sm border-border transition-all duration-300 hover:border-primary/50 hover:shadow-2xl card-glow hover:card-glow">
                         <CardHeader className="p-0">
                           <div className="relative h-48 w-full overflow-hidden">
                             {projectImage && (
@@ -67,29 +92,20 @@ export default function Projects() {
                             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                           </div>
                         </CardHeader>
-                        <CardContent className="p-4">
-                          <Badge variant="secondary" className="mb-2">{project.tag}</Badge>
+                        <CardContent className="p-4 flex-grow flex flex-col">
+                          <div className="mb-2">
+                             <Badge variant="secondary">{project.tag}</Badge>
+                          </div>
                           <CardTitle className="font-headline text-lg">{project.title}</CardTitle>
-                          <p className="mt-2 text-sm text-muted-foreground">{project.description}</p>
+                          <p className="mt-2 text-sm text-muted-foreground line-clamp-3">{project.description}</p>
                         </CardContent>
                       </Card>
                     </DialogTrigger>
-                    <DialogContent className="max-w-2xl">
+                    <DialogContent className="max-w-xl">
                       <DialogHeader>
-                        {projectImage && (
-                           <div className="relative h-64 w-full overflow-hidden rounded-lg mb-4">
-                            <Image
-                              src={projectImage.imageUrl}
-                              alt={project.title}
-                              data-ai-hint={projectImage.imageHint}
-                              fill
-                              className="object-cover"
-                            />
-                          </div>
-                        )}
                         <DialogTitle className="font-headline text-2xl">{project.title}</DialogTitle>
                       </DialogHeader>
-                      <ScrollArea className="max-h-[60vh] pr-4">
+                      <ScrollArea className="max-h-[45vh] pr-4">
                         <DialogDescription asChild>
                           <div className="space-y-4 whitespace-pre-wrap">
                              <p className="text-base text-muted-foreground">{project.longDescription}</p>
@@ -109,7 +125,7 @@ export default function Projects() {
                       </ScrollArea>
                     </DialogContent>
                   </Dialog>
-                </div>
+                </motion.div>
               </CarouselItem>
             );
           })}
@@ -117,6 +133,7 @@ export default function Projects() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
+      </motion.div>
     </Section>
   );
 }

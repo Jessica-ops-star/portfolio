@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative container mx-auto flex min-h-[calc(100dvh-5rem)] items-center justify-center px-4 pt-20 sm:pt-24 lg:pt-0">
       <div className="absolute inset-0 -z-10 overflow-hidden">
-         <div className="absolute -left-32 -top-32 h-[300px] w-[300px] bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
+         <div className="absolute -left-32 top-32 h-[300px] w-[300px] bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
          <div className="absolute -right-32 -bottom-32 h-[300px] w-[300px] bg-accent/20 rounded-full blur-3xl animate-pulse"></div>
       </div>
       <div className="grid w-full grid-cols-1 items-center gap-12 lg:grid-cols-2">
@@ -32,7 +32,7 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start">
             <Button asChild size="lg" variant="primary">
-              <Link href="#projects">My Projects</Link>
+              <a href="/Jessica_resume.pdf" download>Download Resume</a>
             </Button>
           </div>
 

@@ -40,6 +40,12 @@ const nextConfig: NextConfig = {
         hostname: 'image2url.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.image2url.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
