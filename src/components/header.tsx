@@ -19,9 +19,14 @@ const navItems = [
 ];
 
 export default function Header() {
+  const [mounted, setMounted] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeItem, setActiveItem] = useState("Home");
   const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string, name: string, isMobile: boolean = false) => {
     e.preventDefault();
@@ -84,32 +89,34 @@ export default function Header() {
             </Button>
             
             <div className="md:hidden">
-              <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
-                <SheetTrigger asChild>
-                  <Button variant="ghost" size="icon">
-                    <Menu className="h-6 w-6" />
-                    <span className="sr-only">Open menu</span>
-                  </Button>
-                </SheetTrigger>
-                <SheetContent side="right">
-                  <div className="flex flex-col space-y-4 pt-8">
-                    {navItems.map((item) => (
-                      <SheetClose asChild key={item.name}>
-                        <Link
-                          href={item.href}
-                          className="text-lg font-medium"
-                          onClick={(e) => handleNavClick(e, item.href, item.name, true)}
-                        >
-                          {item.name}
-                        </Link>
-                      </SheetClose>
-                    ))}
-                    <Button asChild className="mt-4" variant="primary">
-                      <Link href="#contact">Contact Me</Link>
+              {mounted && (
+                <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
+                  <SheetTrigger asChild>
+                    <Button variant="ghost" size="icon">
+                      <Menu className="h-6 w-6" />
+                      <span className="sr-only">Open menu</span>
                     </Button>
-                  </div>
-                </SheetContent>
-              </Sheet>
+                  </SheetTrigger>
+                  <SheetContent side="right">
+                    <div className="flex flex-col space-y-4 pt-8">
+                      {navItems.map((item) => (
+                        <SheetClose asChild key={item.name}>
+                          <Link
+                            href={item.href}
+                            className="text-lg font-medium"
+                            onClick={(e) => handleNavClick(e, item.href, item.name, true)}
+                          >
+                            {item.name}
+                          </Link>
+                        </SheetClose>
+                      ))}
+                      <Button asChild className="mt-4" variant="primary">
+                        <Link href="#contact">Contact Me</Link>
+                      </Button>
+                    </div>
+                  </SheetContent>
+                </Sheet>
+              )}
             </div>
         </div>
       </div>

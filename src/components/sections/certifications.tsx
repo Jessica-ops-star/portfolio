@@ -54,18 +54,19 @@ const CertificateCard = ({ cert, icon: Icon, isPrimary }: { cert: CertificateIte
           </p>
         </div>
       </DialogTrigger>
-      <DialogContent className="max-w-4xl border-white/10 bg-background/90 backdrop-blur-2xl">
+      <DialogContent className="max-w-2xl border-white/10 bg-background/90 backdrop-blur-2xl p-6">
         <DialogHeader>
           <DialogTitle className="font-headline text-3xl font-bold text-glow">{cert.name}</DialogTitle>
         </DialogHeader>
         {certImage && (
-          <div className="relative mt-6 w-full h-[50dvh] rounded-lg overflow-hidden bg-white/5 ring-1 ring-white/10 flex items-center justify-center">
+          <div className="relative mt-6 w-full aspect-square max-h-[60vh] rounded-[2.5rem] overflow-hidden bg-white/5 ring-1 ring-white/20 flex items-center justify-center shadow-2xl mx-auto">
             <Image
               src={certImage.imageUrl}
               alt={`Certificate for ${cert.name}`}
               data-ai-hint={certImage.imageHint}
               fill
-              className="object-contain"
+              className="object-contain p-6"
+              unoptimized={certImage.imageUrl.endsWith('.gif')}
             />
           </div>
         )}

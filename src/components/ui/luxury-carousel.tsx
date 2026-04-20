@@ -152,8 +152,8 @@ export function LuxuryCarousel({ items, type = "certifications" }: LuxuryCarouse
                 width: ITEM_WIDTH,
                 height: "100%",
                 WebkitBackdropFilter: "blur(24px)",
+                touchAction: "pan-y",
               }}
-              touchAction="pan-y" 
             >
               {/* === THE NEW FLOATING BASE GLOW === */}
               <div 

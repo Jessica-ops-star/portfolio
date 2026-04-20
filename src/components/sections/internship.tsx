@@ -92,7 +92,7 @@ export default function Internship() {
           </div>
           </motion.div>
         </DialogTrigger>
-        <DialogContent className="max-w-4xl border-white/10 bg-background/90 backdrop-blur-2xl p-6">
+        <DialogContent className="max-w-2xl border-white/10 bg-background/90 backdrop-blur-2xl p-6">
           <DialogHeader>
             <DialogTitle className="font-headline text-3xl font-bold text-glow">
                {portfolioData.internship.title}
@@ -107,12 +107,12 @@ export default function Internship() {
               </div>
             </div>
             
-            <div className="relative w-full h-[50dvh] bg-white/5 rounded-xl border border-white/10 overflow-hidden flex items-center justify-center">
+            <div className="relative w-full aspect-square max-h-[60vh] bg-white/5 rounded-[2.5rem] border border-white/20 overflow-hidden flex items-center justify-center shadow-2xl mx-auto">
               <Image 
                 src="https://www.image2url.com/r2/default/images/1776494372614-d2c5d0ae-6540-44d0-b115-f2e60fd6775c.png" 
                 alt="Internship Completion Certificate" 
                 fill 
-                className="object-contain" 
+                className="object-contain p-6" 
               />
             </div>
           </div>
